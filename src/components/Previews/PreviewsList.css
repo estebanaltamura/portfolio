@@ -1,0 +1,35 @@
+.previewMediaDesktop{
+    width: 100%;
+    max-width: 700px;
+    grid-area: desktop;
+}
+
+.previewMediaMobile{
+    width: 100%;
+    max-width: 219px;
+    grid-area: mobile;
+}
+
+.previewsList{
+    display: grid;
+    padding: 13px 20px 3px 40px;
+    width: 100%;
+    grid-template-columns: 220px 70px 700px;
+    grid-template-rows: 412px 18px;
+    grid-template-areas: "mobile . desktop" "previewTitleMobile . previewTitleDesktop";
+    
+}
+
+.previewTitleDesktop{
+    text-align: center;
+    color: #d1d1d1;
+    grid-area: previewTitleDesktop;
+}
+
+.previewTitleMobile{
+    text-align: center;
+    color: #d1d1d1;
+    grid-area: previewTitleMobile;
+}
+
+/*700 x 340 y 220 x 340 los gifs)*/

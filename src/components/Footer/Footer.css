@@ -1,0 +1,88 @@
+.footerContainerWelcome{  
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: calc((100% - 1050px) / 2);   
+    margin: 0 auto;
+    width: 1050px;
+    height: 60px;
+    margin-top: 60px;
+}
+
+.footerContainerProjects{     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    margin: 0 auto;
+    width: 1050px;
+    height: 60px;
+    margin-top: 60px;
+}
+
+.line{
+    width: 100%;    
+    border-top: 1px solid #cccccc;
+}
+
+.contactFooterGrid{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 250px 20px 250px 20px 250px 20px 250px;
+    grid-template-rows: 60px;
+    grid-template-areas: "mail . git . linkedin . cv";
+}
+
+.footerContact{
+    background-color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #d1d1d1;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+
+.footerMail{
+    grid-area: mail;
+}
+
+.footerMailIcon{
+    width: 30px;
+    height: 25px;
+}
+
+.footerMailCopyIcon{
+    width: 25px;
+    height: 20px;
+}
+
+.footerDivider{
+    margin: auto;
+    color:#d1d1d1;
+    font-size: 30px;
+}
+
+.copiedMessage{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    color: #d1d1d1;
+}
+
+.footerGitIcon{
+    width: 30px;
+    height: 25px;
+}
+
+.footerLinkedinIcon{
+    width: 33px;
+    height: 28px;
+}
+
+.footerCVIcon{
+    width: 30px;
+    height: 25px;
+}

@@ -1,0 +1,62 @@
+.headerContainer{
+    display: grid;
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    grid-template-columns: 1fr 50px 50px 50px 50px;
+    grid-template-rows: 53px;
+    grid-template-areas: ". mail git linkedin cv";
+    background-color: black;
+    z-index: 1;
+    
+    align-items: center;
+    
+}
+
+
+
+.iconoMailHeader{
+    width: 40px;
+    height: 40px;
+    color: #d1d1d1;
+    margin: auto;
+    grid-area: mail;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.iconoGitHeader{
+    width: 30px;
+    height: 30px;
+    color: #d1d1d1;
+    margin: auto;
+    grid-area: git;
+}
+
+.iconoLinkedinHeader{
+    width: 40px;
+    height: 40px;
+    color: #d1d1d1;
+    margin: auto;
+    grid-area: linkedin;
+}
+
+.iconoCVHeader{
+    width: 37px;
+    height: 37px;
+    color: #d1d1d1;
+    margin: auto;
+    grid-area: cv;
+}
+
+.copiedHeaderMessage{
+    position: absolute;
+    right: 170px;
+    width: 200px;
+    text-align: center;
+    color: #d1d1d1;
+    grid-area: mail;
+    font-size: 20px;
+}

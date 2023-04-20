@@ -1,0 +1,24 @@
+.previewListContainer{
+    position: relative;
+}
+
+.previewsTitle{
+    font-size: 26px;
+    padding-left: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    text-align: left;
+    margin: 45px 0 10px 0;
+    height: 45px;
+    color: #d1d1d1;
+}
+
+.subItemIcon{
+    position: absolute;
+    color: white;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+}
