@@ -1,37 +1,23 @@
-import { useContext } from 'react';
-import { chosenProjectContext } from './components/contexts/ChosenProject';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header/Header';
-import { Welcome } from './components/Welcome/Welcome';
-import { ProjectsListContainer } from './components/Projects/ProjectsListContainer';
-import { PreviewsListContainer } from './components/Previews/PreviewsListContainer';
-import { ProjectSummary } from './components/ProjectSummary/ProjectSummary'; 
-
+import { Home } from './components/Home/Home'; 
+import { CV } from './components/CV/CV';
 import { Footer } from './components/Footer/Footer';
 import './App.css';
 
 function App() {
 
-  const {currentProject} = useContext(chosenProjectContext)
-  
-
 return (      
-        <div className="App">
-            <Header />
-            <div className="appContainer">
-              <Welcome />
-              <ProjectsListContainer />
-              {
-                currentProject.name !== "" && 
-                  <>
-                    <PreviewsListContainer />
-                    <ProjectSummary />   
-                                     
-                  </>
-              }
-            
-            </div>
-            <Footer />
-          </div>
+  <div className="App">
+    <Header />
+    <BrowserRouter>
+      <Routes>
+        <Route path="*" element ={<Home />} />   
+        <Route path="/cv" element ={<CV />} />                
+      </Routes>
+    </BrowserRouter>
+    <Footer />
+  </div>
      
   );
 }

@@ -17,7 +17,6 @@ export const ProjectSummary = ()=>{
             top: projectListElementTop,
             behavior: "smooth",
         })            
-        console.log(currentProject) 
     },[currentProject])
 
  

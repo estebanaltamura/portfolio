@@ -4,6 +4,7 @@ export const projectsData = [
         "name": "Pandora Backpacks",
         "projectSummary": [
             "Pandora Mochilas es un ecommerce simulado de mochilas desarrollado en React que integra todos los procesos menos la integración con un medio de pago.",
+            "dwjodwj"
         ],
         "projectDetails": [
             "Persiste los datos del carro de compras en el local storage para poder recuperar la información ante una recarga o cierre de la página. El evento que dispara la carga de datos al storage es el unload y en el load se descargan. Mientras la página está en uso con normalidad no se persisten los datos del carro en el storage. Si en un contexto global",
@@ -93,8 +94,8 @@ export const projectsData = [
             "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products",
             "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products"
         ],
-        "desktopPreview": "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
-        "mobilePreview":   "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png" 
+        "desktopPreview": "https://i.postimg.cc/7LHby70S/javascript-Icon.png",
+        "mobilePreview":   "https://i.postimg.cc/7LHby70S/javascript-Icon.png" 
     }
 
       
@@ -121,4 +122,12 @@ REACT:      https://i.postimg.cc/MZ11m06Y/react-Icon.png
 FIREBASE:   https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png
 
 
+
+
+imagenes o videos
+mobile 22x410 desktop 700x410
+
+No pueden haber imagenes repetidas entre proyectos
+
 */
+

@@ -27,13 +27,8 @@ export const Header = ()=>{
         
     }
    
-
     return(
-        <div className="headerContainer">  
-             
-            
-                
-                   
+        <div className="headerContainer">                     
                         <CopyToClipboard text="esteban.altamura@gmail.com">
                             <button className="iconosHeader iconoMailHeader" onClick={copyEmailAddressHeaderClickHandler}>
                                 <FiMail className="iconosHeader iconoMailHeader" />
@@ -49,8 +44,7 @@ export const Header = ()=>{
                             <AiOutlineLinkedin className="iconosHeader iconoLinkedinHeader" />
                         </a>
 
-                        <FiFileText className="iconosHeader iconoCVHeader"  />
-                   
+                        <a className="iconosHeader iconoCVHeader" href="https://drive.google.com/file/d/1mqALxOX5sEzCZvFaSaormUEwuzu_eV3z/view?usp=share_link"  target="_blank">CV</a>                   
                         {
                             isCopyingEmailHeader && <span className="copiedHeaderMessage">Copied!</span>
                         }

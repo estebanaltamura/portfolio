@@ -1,16 +1,18 @@
 
 import { useContext, useEffect, useRef } from "react"
 import { chosenProjectContext } from "../contexts/ChosenProject"
+import { previewsLoadingContext } from "../contexts/PreviewsLoadingProvider";
 import "./ProjectItem.css"
 
 export const ProjectItem = ({project, name})=>{
 
     const {currentProject, setCurrentProject} = useContext(chosenProjectContext)
     const itemElement = useRef()
+    const {setIsLoadingPreviews} = useContext(previewsLoadingContext)
 
     const chosenProjectClickHandler = ()=>{
-        console.log(name, project)
         setCurrentProject({name: name, project: project})
+        setIsLoadingPreviews([true, true])
     }
 
     useEffect(()=>{

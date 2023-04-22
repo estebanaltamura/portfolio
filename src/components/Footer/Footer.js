@@ -47,7 +47,7 @@ export const Footer = ()=>{
                     isCopying == false ?
                         <CopyToClipboard text="esteban.altamura@gmail.com">
                             <button className="footerContact footerMail" onClick={copyEmailAddressClickHandler}>
-                                <FiMail className="footerMailIcon" />esteban.altamura@gmail.com
+                                esteban.altamura@gmail.com
                                 <AiFillCopy className="footerMailCopyIcon" />
                             </button>
                         </CopyToClipboard>
@@ -72,7 +72,7 @@ export const Footer = ()=>{
                 
                 <span className="footerDivider">|</span>
 
-                <a className="footerContact  footerLinkedin" href="https://www.linkedin.com/in/andr%C3%A9s-altamura-51a55721b">
+                <a className="footerContact  footerCV" href="https://drive.google.com/file/d/1mqALxOX5sEzCZvFaSaormUEwuzu_eV3z/view?usp=share_link" target="_blank">
                     <FiFileText className="footerCVIcon"  />
                     Curriculum Vitae
                 </a>

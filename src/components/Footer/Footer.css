@@ -8,6 +8,9 @@
     width: 1050px;
     height: 60px;
     margin-top: 60px;
+    
+    
+    
 }
 
 .footerContainerProjects{     
@@ -28,7 +31,8 @@
 .contactFooterGrid{
     display: grid;
     margin: auto;
-    grid-template-columns: 250px 20px 250px 20px 250px 20px 250px;
+    align-items: center;
+    grid-template-columns: 240px 20px 240px 20px 240px 20px 240px;
     grid-template-rows: 60px;
     grid-template-areas: "mail . git . linkedin . cv";
 }
@@ -41,6 +45,7 @@
     color: #d1d1d1;
     margin: auto;
     cursor: pointer;
+    font-size: 14px;
 }
 
 
@@ -50,12 +55,12 @@
 }
 
 .footerMailIcon{
-    width: 30px;
-    height: 25px;
+    width: 22px;
+    height: 17px;
 }
 
 .footerMailCopyIcon{
-    width: 25px;
+    width: 40px;
     height: 20px;
 }
 
@@ -67,22 +72,25 @@
 
 .copiedMessage{
     display: flex;
+    font-size: 16px;
+    margin: 0;
     align-items:center ;
     justify-content: center;
     color: #d1d1d1;
 }
 
 .footerGitIcon{
-    width: 30px;
-    height: 25px;
+    width: 40px;
+    height: 20px;
 }
 
 .footerLinkedinIcon{
-    width: 33px;
-    height: 28px;
+    width: 43px;
+    height: 23px;
 }
 
 .footerCVIcon{
-    width: 30px;
-    height: 25px;
+    width: 40px;
+    height: 20px;
 }
+

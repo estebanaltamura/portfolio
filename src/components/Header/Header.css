@@ -3,14 +3,12 @@
     position: fixed;
     height: 55px;
     width: 100%;
-    grid-template-columns: 1fr 50px 50px 50px 50px;
+    grid-template-columns: 1fr 50px 50px 50px 65px;
     grid-template-rows: 53px;
     grid-template-areas: ". mail git linkedin cv";
     background-color: black;
-    z-index: 1;
-    
+    z-index: 1;    
     align-items: center;
-    
 }
 
 
@@ -44,16 +42,19 @@
 }
 
 .iconoCVHeader{
-    width: 37px;
-    height: 37px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-size: 29px;
+    font-weight: 700;
     color: #d1d1d1;
-    margin: auto;
+    right: -8px;
     grid-area: cv;
 }
 
 .copiedHeaderMessage{
     position: absolute;
-    right: 170px;
+    right: 0px;
     width: 200px;
     text-align: center;
     color: #d1d1d1;
