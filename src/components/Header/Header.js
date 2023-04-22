@@ -1,23 +1,19 @@
-import { AiOutlineLinkedin } from "react-icons/ai";
-
-import { FiMail, FiGithub } from "react-icons/fi";
-import { FiFileText } from "react-icons/fi";
-import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { useState } from "react";
-
-
+import { FiMail, FiGithub } from "react-icons/fi";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import "./Header.css"
 
 export const Header = ()=>{
 
-    const [isCopyingEmailHeader, setIsCopyinggEmailHeader] = useState(false)
+    const [isCopyingEmailHeader, setIsCopyingEmailHeader] = useState(false)
 
     const copyEmailAddressHeaderClickHandler = ()=>{
         
-        setIsCopyinggEmailHeader(true)
+        setIsCopyingEmailHeader(true)
         
         const interval = setInterval(()=>{
-            setIsCopyinggEmailHeader(false)
+            setIsCopyingEmailHeader(false)
             clearIntervalFunction(interval)
         },1500)
 

@@ -1,41 +1,28 @@
+import { useContext, useState } from "react"
 import { chosenProjectContext } from "../contexts/ChosenProject"
-import { useContext } from "react"
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillCopy } from "react-icons/ai";
 import { FiMail, FiGithub } from "react-icons/fi";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import { FiFileText } from "react-icons/fi";
-
-
-
-
-
-import { useState } from "react";
-
-
-
-
 import "./Footer.css"
 
 export const Footer = ()=>{
 
     const {currentProject} = useContext(chosenProjectContext)
+    const [isCopyingEmailFooter, setIsCopyingEmailFooter] = useState(false)
 
-    const [isCopying, setIsCopying] = useState(false)
-
-    const copyEmailAddressClickHandler = ()=>{
-        
-        setIsCopying(true)
+    const copyEmailAddressClickHandler = ()=>{        
+        setIsCopyingEmailFooter(true)
         
         const interval = setInterval(()=>{
-            setIsCopying(false)
+            setIsCopyingEmailFooter(false)
             clearIntervalFunction(interval)
         },1500)
 
         const clearIntervalFunction = (intervalToClear)=>{
             clearInterval(intervalToClear)
-        }
-        
+        }        
     }
     
 
@@ -44,9 +31,10 @@ export const Footer = ()=>{
             <div className="line"></div>
             <div className="contactFooterGrid">
                 {
-                    isCopying == false ?
+                    isCopyingEmailFooter == false ?
                         <CopyToClipboard text="esteban.altamura@gmail.com">
                             <button className="footerContact footerMail" onClick={copyEmailAddressClickHandler}>
+                                <FiMail className="footerMailIcon" />
                                 esteban.altamura@gmail.com
                                 <AiFillCopy className="footerMailCopyIcon" />
                             </button>
