@@ -19,9 +19,9 @@ export const projectsData = [
         "technologies":[
             {name: "HTML", iconSrc: "https://i.postimg.cc/kGPKdGc8/HtmlIcon.png"},
             {name: "CSS", iconSrc: "https://i.postimg.cc/3Rvm6mgY/cssIcon.png"},
-            {name: "JAVASCRIPT", iconSrc: "https://i.postimg.cc/7LHby70S/javascript-Icon.png"},
-            {name: "REACT", iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png"},
-            {name: "FIREBASE", iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png"}
+            {name: "Javascript", iconSrc: "https://i.postimg.cc/7LHby70S/javascript-Icon.png"},
+            {name: "React", iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png"},
+            {name: "Firebase", iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png"}
         ],
         "desktopPreview": "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
         "mobilePreview": "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png",

@@ -1,35 +1,60 @@
+.previewsList{
+    display: grid;
+    margin: 0 auto;
+    padding: 13px 20px 3px 20px;
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: 1fr 220px 1fr;
+    grid-template-rows: 412px 18px;
+    grid-template-areas: ". mobile ." ". previewTitleMobile .";
+    
+}
+
+
+.previewTitleDesktop{
+    display: none;
+    margin: auto;    
+    color: #d1d1d1;
+    grid-area: previewTitleDesktop;
+}
+
 .previewMediaDesktop{
+    display: none;
     width: 100%;
     max-width: 700px;
     grid-area: desktop;
 }
 
-.previewMediaMobile{
-    width: 100%;
-    max-width: 219px;
-    grid-area: mobile;
-}
-
-.previewsList{
-    display: grid;
-    padding: 13px 20px 3px 40px;
-    width: 100%;
-    grid-template-columns: 220px 70px 700px;
-    grid-template-rows: 412px 18px;
-    grid-template-areas: "mobile . desktop" "previewTitleMobile . previewTitleDesktop";
-    
-}
-
-.previewTitleDesktop{
-    text-align: center;
-    color: #d1d1d1;
-    grid-area: previewTitleDesktop;
-}
-
 .previewTitleMobile{
+    display: flex;
+    margin: auto;
     text-align: center;
     color: #d1d1d1;
     grid-area: previewTitleMobile;
 }
 
-/*700 x 340 y 220 x 340 los gifs)*/
+.previewMediaMobile{
+    display: flex;
+    width: 100%;
+    max-width: 219px;
+    grid-area: mobile;
+}
+
+@media screen and (min-width: 1050px) {
+    .previewsList{
+        display: grid;
+        padding: 13px 20px 3px 40px;
+        width: 100%;
+        grid-template-columns: 220px 70px 700px;
+        grid-template-rows: 412px 18px;
+        grid-template-areas: "mobile . desktop" "previewTitleMobile . previewTitleDesktop";        
+    }
+
+    .previewTitleDesktop{
+        display: flex;        
+    }
+    
+    .previewMediaDesktop{
+        display: flex;        
+    }
+}

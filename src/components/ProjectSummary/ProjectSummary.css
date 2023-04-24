@@ -1,6 +1,6 @@
 .projectSummaryContainer{
-    width: 1050px;
-    
+    width: 100%;
+    max-width: 1050px;    
     padding: 45px 20px 0 40px;
 }
 
@@ -20,9 +20,9 @@
 .projectSummaryGrid{
     display: grid;
     width: 100%;
-    grid-template-columns: 65px auto 1fr 100px 100px;
-    grid-template-rows: 40px;
-    grid-template-areas:  "title name shortDescription linkSite LinkGitHub";
+    grid-template-rows: 35px 35px 35px 35px;
+    grid-template-columns: 100%;
+    grid-template-areas:  "name" "shortDescription" "linkSite" "LinkGitHub";
     align-items: center;
 }
 
@@ -150,14 +150,20 @@
     height: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
-    grid-template-columns: repeat(5, 198px);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 40px;
  }
 
  .technologyIcons{
-    width:30px;
-    height: 30px;
-    margin-right: 5px;
+    width:23px;
+    height: 23px;
+    margin-right: 1px;
+ }
+
+ .technologiesNames{
+    color:#d1d1d1;
+    font-size: 13px;
+
  }
 
  .technologyContainer{
@@ -165,4 +171,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+ }
+
+ @media screen and (min-width: 1050px) {
+    .projectSummaryGrid{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 65px auto 1fr 100px 100px;
+        grid-template-rows: 40px;
+        grid-template-areas:  "title name shortDescription linkSite LinkGitHub";
+        align-items: center;
+    }
+
+    .technologiesGrid{
+        display: grid;
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        grid-template-columns: repeat(5, 198px);
+        grid-template-rows: 40px;
+     }
  }

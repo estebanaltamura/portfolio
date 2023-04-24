@@ -44,7 +44,6 @@ export const ProjectSummary = ()=>{
             <h2 className="projectSummaryTitle">Project summary</h2>
             
             <div className="projectSummaryGrid">
-                <p className="projectSummaryParagraph projectNameTitle">Project:</p>
                 <p className="projectSummaryName">{currentProject.name}</p>
                 <p className="projectSummaryParagraph shortDescription">Short description: E-commerce</p>
                 <a className="projectSummaryParagraph Link viewSiteLink" href={currentProject.project.webSiteLink} target="_blank">View site</a>
@@ -75,7 +74,7 @@ export const ProjectSummary = ()=>{
                                 return (
                                 <div className="technologyContainer">
                                     <img className="technologyIcons" src={technology.iconSrc} />
-                                    <p className="projectSummaryParagraph">{technology.name}</p>
+                                    <p className="technologiesNames">{technology.name}</p>
                                 </div>
                                 )
                                 

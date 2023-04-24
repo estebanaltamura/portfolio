@@ -1,4 +1,11 @@
 .homeContainer{
     margin: 0 auto;
-    max-width: 1050px;  
+    max-width: 100%;  
+  }
+
+  @media screen and (min-width: 1050px) {
+    .homeContainer{
+      margin: 0 auto;
+      max-width: 1050px;  
+    }
   }

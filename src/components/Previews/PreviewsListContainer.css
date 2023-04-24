@@ -20,16 +20,26 @@
 
 .subItemIcon{
     position: absolute;
-    color: white;
-    top: 4px;
-    width: 25px;
-    height: 25px;
+    color: #d1d1d1;
+    top: 7px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .spinnerPreview{
-    position: absolute;
-    
+    position: absolute;    
     top: 50%;
     left: calc(50% - 16px);
     color: #d1d1d1;
+}
+
+@media screen and (min-width: 1050px) {
+    .subItemIcon{
+        position: absolute;
+        color: #d1d1d1;
+        top: 4px;
+        width: 25px;
+        height: 25px;
+    }
 }
