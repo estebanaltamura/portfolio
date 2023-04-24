@@ -14,14 +14,13 @@ export const Home = ()=>{
     return(
         <div className="homeContainer">
             <Welcome />
-            
-                <ProjectsListContainer />
+            <ProjectsListContainer />
                 {
-                currentProject.name !== "" && 
-                <>
-                <PreviewsListContainer />                                                    
-                <ProjectSummary />   
-                </>
+                    currentProject.name !== "" && 
+                    <>
+                        <PreviewsListContainer />                                                    
+                        <ProjectSummary />   
+                    </>
                 }             
         </div>
     )
