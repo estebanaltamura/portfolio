@@ -14,9 +14,9 @@ export const PreviewsList = ()=>{
                 {
                     currentProject.name !== "" &&                    
                             <>                                
-                                <PreviewItem type="mobile" img={currentProject.project.mobilePreview} />
+                                <PreviewItem type="mobile" img={currentProject.project.mobilePreview} poster={currentProject.project.mobilePreviewPoster}/>
                                 <p className="previewTitleMobile">Mobile</p>
-                                <PreviewItem type="desktop" img={currentProject.project.desktopPreview} />
+                                <PreviewItem type="desktop" img={currentProject.project.desktopPreview} poster={currentProject.project.desktopPreviewPoster}/>
                                 <p className="previewTitleDesktop">Desktop</p>
                                 
                             </>                       

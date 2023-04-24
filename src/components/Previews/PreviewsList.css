@@ -4,21 +4,13 @@
     padding: 13px 20px 3px 20px;
     width: 100%;
     height: fit-content;
-    grid-template-columns: 1fr 220px 1fr;
-    grid-template-rows: 420px 18px;
+    grid-template-columns: 1fr 222px 1fr;
+    grid-template-rows: 422px 18px;
     grid-template-areas: ". mobile ." ". previewTitleMobile .";
     
 }
 
-.playIconMobile{
-    position: absolute;
-    top: 250px;
-    left: calc(50% - 25px);
-    color: white;
-    width: 50px;
-    height: 50px;
-    pointer-events: none;
-}
+
 
 
 .previewTitleDesktop{
@@ -31,7 +23,7 @@
 .previewMediaDesktop{
     display: none;
     width: 100%;
-    max-width: 700px;
+    max-width: 700px;    
     grid-area: desktop;
 }
 
@@ -66,8 +58,8 @@
         display: grid;
         padding: 13px 20px 3px 40px;
         width: 100%;
-        grid-template-columns: 220px 70px 700px;
-        grid-template-rows: 412px 18px;
+        grid-template-columns: 224px 60px 704px;
+        grid-template-rows: 426px 18px;
         grid-template-areas: "mobile . desktop" "previewTitleMobile . previewTitleDesktop";        
     }
 

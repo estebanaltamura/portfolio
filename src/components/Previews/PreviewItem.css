@@ -1,6 +1,42 @@
-.videoMobile{
+.mobileVideo{
     width: fit-content;
-    height: fit-content;
+    height: fit-content;    
     width: 220px;
     height: 420px;
+}
+
+.desktopVideo{
+    width: fit-content;
+    height: fit-content;    
+    width: 700px;
+    height: 420px;
+}
+
+.playIconMobile{    
+    position: absolute;
+    top: 250px;
+    left: calc(50% - 25px);
+    color: white;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
+
+
+@media screen and (min-width: 1050px) {
+
+    .playIconMobile{
+        left: 125px;
+    }
+
+    .playDesktop{
+        position: absolute;
+        top: 250px;
+        left: 655px;
+        color: white;
+        width: 50px;
+        height: 50px;
+        pointer-events: none;
+    }
 }

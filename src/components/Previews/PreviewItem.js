@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { BsFillPlayFill, BsFillPauseFill } from "react-icons/bs";
 import "./PreviewItem.css"
 
-export const PreviewItem = ({type, img})=>{
+export const PreviewItem = ({type, img, poster})=>{
 
     const [isPlaying, setIsPlaying] = useState(false)
 
@@ -27,20 +27,18 @@ export const PreviewItem = ({type, img})=>{
           mobilePreview.current.play();
         }
        
-        setIsPlaying(!isPlaying);
-        
-              
+        setIsPlaying(!isPlaying);              
     }
 
     return(
         <div className={type == "desktop" ? "previewMediaDesktop" : "previewMediaMobile"} onClick={playMobilePreview} >
             {
                 !isPlaying ?
-                     <BsFillPlayFill className="playIconMobile"    />
+                     <BsFillPlayFill className={type == "desktop" ? "playDesktop" : "playIconMobile"} />
                            :
-                    <BsFillPauseFill className="playIconMobile"    />
+                    <BsFillPauseFill className={type == "desktop" ? "playDesktop" : "playIconMobile"} />
             }
-            <video className="videoMobile" ref={mobilePreview} src={img} />       
+            <video className={type == "desktop" ? "desktopVideo" : "mobileVideo"} ref={mobilePreview} src={img} poster={poster}/>       
         </div>
     )
 }
