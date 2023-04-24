@@ -1,7 +1,8 @@
 .previewListContainer{
     position: relative;    
     width: 100%;
-    height: 500px;
+    height: fit-content;
+    min-height: 500px;
     margin: 0 auto;
 }
 

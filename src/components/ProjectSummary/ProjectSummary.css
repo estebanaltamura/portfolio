@@ -20,9 +20,9 @@
 .projectSummaryGrid{
     display: grid;
     width: 100%;
-    grid-template-rows: 35px 35px 35px 35px;
-    grid-template-columns: 100%;
-    grid-template-areas:  "name" "shortDescription" "linkSite" "LinkGitHub";
+    grid-template-rows: 35px 55px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:  "name name" "linkSite LinkGitHub";
     align-items: center;
 }
 
@@ -33,11 +33,11 @@
 }
 
 .projectSummaryName{
-    color: #cccccc;
+    color: white;
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .Link{
@@ -46,6 +46,7 @@
     border-bottom: 2px solid #d1d1d1;
     width: fit-content;
     height: fit-content;
+    margin: auto;
 }
 
 .link:hover{
@@ -177,7 +178,7 @@
         width: 100%;
         grid-template-columns: auto 1fr 100px 100px;
         grid-template-rows: 40px;
-        grid-template-areas:  "name shortDescription linkSite LinkGitHub";
+        grid-template-areas:  "name . linkSite LinkGitHub";
         align-items: center;
     }
 

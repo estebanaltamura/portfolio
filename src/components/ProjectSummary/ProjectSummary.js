@@ -27,7 +27,7 @@ export const ProjectSummary = ()=>{
         if (moreLessDetails == "Less details"){
             window.scrollBy({
                 left: 0,
-                top: projectSumaryElementTop,
+                top: projectSumaryElementTop - 60,
                 behavior: "smooth",
             })       
         }
@@ -39,13 +39,12 @@ export const ProjectSummary = ()=>{
     } 
 
     return(
-        <div className="projectSummaryContainer" ref={projectSumaryElement} >
+        <div className="projectSummaryContainer" >
             
             <h2 className="projectSummaryTitle">Project summary</h2>
             
             <div className="projectSummaryGrid">
                 <p className="projectSummaryName">{currentProject.name}</p>                
-                <p className="projectSummaryParagraph shortDescription">Short description: {currentProject.project.shortDescription}</p>
                 <a className="projectSummaryParagraph Link viewSiteLink" href={currentProject.project.webSiteLink} target="_blank">View site</a>
                 <a className="projectSummaryParagraph Link gitHubLink" href={currentProject.project.gitHubLink} target="_blank">Git Hub</a>             
             </div>
@@ -56,19 +55,9 @@ export const ProjectSummary = ()=>{
                         return <p className="projectSummaryParagraph projectDescription">{sumarryParagraph}</p>
                     })
                 }
-             
             </div>
 
-
-            <div className="projectDetailsContainer" onClick={moreDetailsClickHandler}>
-                <div className="moreDetailsContainer" >                
-                    <span className="moreDetailsText">{moreLessDetails}</span>                
-                </div>
-            </div>          
-            
-            {moreLessDetails == "Less details" &&
-                <div className="projectSummaryDescriptionContainer">
-                    <div className="technologiesGrid">
+            <div className="technologiesGrid">
                         <p className="technologiesTitle">Tecnologias aplicadas</p>
                         {
                             
@@ -82,8 +71,17 @@ export const ProjectSummary = ()=>{
                                 
                             })
                         }
-                    </div>
+            </div>
 
+
+            <div className="projectDetailsContainer" onClick={moreDetailsClickHandler} ref={projectSumaryElement}>
+                <div className="moreDetailsContainer" >                
+                    <span className="moreDetailsText">{moreLessDetails}</span>                
+                </div>
+            </div>          
+            
+            {moreLessDetails == "Less details" &&
+                <div className="projectSummaryDescriptionContainer">
                     {
                     currentProject.project.projectDetails.map((projectDetailsParagraph)=>{
                         return <p className="projectSummaryParagraph projectDescription">{projectDetailsParagraph}</p>

@@ -40,6 +40,17 @@
     grid-area: mobile;
 }
 
+.noDesktopPreviewMessage{
+    display: block;
+    color: #cccccc;
+    width: 100%;
+    height: fit-content;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
 @media screen and (min-width: 1050px) {
     .previewsList{
         display: grid;
@@ -56,5 +67,9 @@
     
     .previewMediaDesktop{
         display: flex;        
+    }
+
+    .noDesktopPreviewMessage{
+        display: none;       
     }
 }

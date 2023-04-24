@@ -11,12 +11,12 @@ export const ProjectItem = ({project, name})=>{
     const {setIsLoadingPreviews} = useContext(previewsLoadingContext)
 
     const chosenProjectClickHandler = ()=>{
-        setCurrentProject({name: name, project: project})
-        setIsLoadingPreviews([true, true])
+        setCurrentProject({name: name, project: project})        
     }
 
     useEffect(()=>{
         currentProject.name == name ? itemElement.current.classList.replace("projectItem", "projectItemActive") : itemElement.current.classList.replace("projectItemActive", "projectItem")
+        currentProject == [false, false] && setIsLoadingPreviews([true, true])
     },[currentProject])
 
     return(
