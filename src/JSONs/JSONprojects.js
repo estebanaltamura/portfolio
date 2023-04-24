@@ -2,6 +2,7 @@
 export const projectsData = [
     {
         "name": "Pandora Backpacks",
+        "shortDescription": "E-commerce",
         "projectSummary": [
             "Pandora Mochilas es un ecommerce simulado de mochilas desarrollado en React que integra todos los procesos menos la integración con un medio de pago.",
             "dwjodwj"

@@ -44,8 +44,8 @@ export const ProjectSummary = ()=>{
             <h2 className="projectSummaryTitle">Project summary</h2>
             
             <div className="projectSummaryGrid">
-                <p className="projectSummaryName">{currentProject.name}</p>
-                <p className="projectSummaryParagraph shortDescription">Short description: E-commerce</p>
+                <p className="projectSummaryName">{currentProject.name}</p>                
+                <p className="projectSummaryParagraph shortDescription">Short description: {currentProject.project.shortDescription}</p>
                 <a className="projectSummaryParagraph Link viewSiteLink" href={currentProject.project.webSiteLink} target="_blank">View site</a>
                 <a className="projectSummaryParagraph Link gitHubLink" href={currentProject.project.gitHubLink} target="_blank">Git Hub</a>             
             </div>
@@ -69,7 +69,7 @@ export const ProjectSummary = ()=>{
             {moreLessDetails == "Less details" &&
                 <div className="projectSummaryDescriptionContainer">
                     <div className="technologiesGrid">
-                        <p className="technologiesNames">Tecnologias aplicadas</p>
+                        <p className="technologiesTitle">Tecnologias aplicadas</p>
                         {
                             
                             currentProject.project.technologies.map((technology, index)=>{
