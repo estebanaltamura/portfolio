@@ -1,4 +1,4 @@
-import { useState, useRef } from "react"
+import { useState, useEffect, useRef } from "react"
 import { BsFillPlayFill, BsFillPauseFill } from "react-icons/bs";
 import "./PreviewItem.css"
 
@@ -8,6 +8,16 @@ export const PreviewItem = ({type, img})=>{
 
     const mobilePreview = useRef()
 
+    useEffect(()=>{
+        const mobilePreviewElementTop = mobilePreview.current.getBoundingClientRect().top
+        
+        window.scrollBy({
+            left: 0,
+            top: mobilePreviewElementTop - 120,
+            behavior: "smooth",
+        })            
+    },[isPlaying])
+
     const playMobilePreview = (e)=>{
         e.stopPropagation()
         console.log("entro");
@@ -16,6 +26,7 @@ export const PreviewItem = ({type, img})=>{
         } else {
           mobilePreview.current.play();
         }
+       
         setIsPlaying(!isPlaying);
         
               
