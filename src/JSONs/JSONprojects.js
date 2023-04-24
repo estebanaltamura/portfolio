@@ -24,7 +24,7 @@ export const projectsData = [
             {name: "Firebase", iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png"}
         ],
         "desktopPreview": "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
-        "mobilePreview": "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png",
+        "mobilePreview": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
         "gitHubLink": "https://github.com/estebanaltamura/entregaFinal-Altamura",
         "webSiteLink": "https://entrega-final-altamura.vercel.app/"
     },
@@ -128,15 +128,15 @@ FIREBASE
 Opciones iconos:
 HTML:       https://i.postimg.cc/kGPKdGc8/HtmlIcon.png
 CSS:        https://i.postimg.cc/3Rvm6mgY/cssIcon.png
-JAVASCRIPT: https://i.postimg.cc/7LHby70S/javascript-Icon.png
-REACT:      https://i.postimg.cc/MZ11m06Y/react-Icon.png
-FIREBASE:   https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png
+Javascript: https://i.postimg.cc/7LHby70S/javascript-Icon.png
+React:      https://i.postimg.cc/MZ11m06Y/react-Icon.png
+Firebase:   https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png
 
 
 
 
 imagenes o videos
-mobile 22x410 desktop 700x410
+mobile 220x410 desktop 700x410
 
 No pueden haber imagenes repetidas entre proyectos
 

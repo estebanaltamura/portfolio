@@ -1,25 +1,38 @@
-import { useContext } from "react";
-import { previewsLoadingContext } from "../contexts/PreviewsLoadingProvider";
+import { useState, useRef } from "react"
+import { BsFillPlayFill, BsFillPauseFill } from "react-icons/bs";
 import "./PreviewItem.css"
 
 export const PreviewItem = ({type, img})=>{
 
-    const {setIsLoadingPreviews} = useContext(previewsLoadingContext)
+    const [isPlaying, setIsPlaying] = useState(false)
 
-    const onLoadPreviewMediaHandler= ()=>{
-        console.log(type);
+    const mobilePreview = useRef()
 
-        if (type === "desktop") {
-            setIsLoadingPreviews((prevState) => [false, prevState[1]]);
-        } 
-        
-        else if (type === "mobile") {
-            setIsLoadingPreviews((prevState) => [prevState[0], false]);
+    const playMobilePreview = (e)=>{
+        e.stopPropagation()
+        console.log("entro");
+        if (isPlaying) {
+          mobilePreview.current.pause();
+        } else {
+          mobilePreview.current.play();
         }
+        setIsPlaying(!isPlaying);
+        
+              
     }
 
     return(
-        <img className={type == "desktop" ? "previewMediaDesktop" : "previewMediaMobile"} src={img}  onLoad={onLoadPreviewMediaHandler}/>       
+        <div className={type == "desktop" ? "previewMediaDesktop" : "previewMediaMobile"} onClick={playMobilePreview} >
+            {
+                !isPlaying ?
+                     <BsFillPlayFill className="playIconMobile"    />
+                           :
+                    <BsFillPauseFill className="playIconMobile"    />
+            }
+            <video className="videoMobile" ref={mobilePreview} src={img} />       
+        </div>
     )
 }
+
+
 

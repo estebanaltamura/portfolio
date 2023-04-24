@@ -1,6 +1,5 @@
 import { useContext } from 'react';
 import { chosenProjectContext } from '../contexts/ChosenProject';
-import { PreviewsLoadingProvider} from '../contexts/PreviewsLoadingProvider';
 import { Welcome } from '../Welcome/Welcome.js';
 import { ProjectsListContainer } from '../Projects/ProjectsListContainer';
 import { PreviewsListContainer } from '../Previews/PreviewsListContainer';
@@ -15,7 +14,7 @@ export const Home = ()=>{
     return(
         <div className="homeContainer">
             <Welcome />
-            <PreviewsLoadingProvider>
+            
                 <ProjectsListContainer />
                 {
                 currentProject.name !== "" && 
@@ -23,8 +22,7 @@ export const Home = ()=>{
                 <PreviewsListContainer />                                                    
                 <ProjectSummary />   
                 </>
-                }
-            </PreviewsLoadingProvider>  
+                }             
         </div>
     )
 }
