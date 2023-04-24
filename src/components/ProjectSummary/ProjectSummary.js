@@ -69,7 +69,9 @@ export const ProjectSummary = ()=>{
             {moreLessDetails == "Less details" &&
                 <div className="projectSummaryDescriptionContainer">
                     <div className="technologiesGrid">
+                        <p className="technologiesNames">Tecnologias aplicadas</p>
                         {
+                            
                             currentProject.project.technologies.map((technology, index)=>{
                                 return (
                                 <div className="technologyContainer">

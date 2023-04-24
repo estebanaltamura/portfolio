@@ -147,30 +147,28 @@
  .technologiesGrid{
     display: grid;
     width: 100%;
-    height: 40px;
+    height: fit-content;
     margin-top: 30px;
     margin-bottom: 30px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 40px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 40px);
  }
 
  .technologyIcons{
-    width:23px;
-    height: 23px;
-    margin-right: 1px;
+    width:30px;
+    height: 30px;
+    margin-right: 5px;
  }
 
  .technologiesNames{
-    color:#d1d1d1;
-    font-size: 13px;
-
+    color:#d1d1d1
  }
 
  .technologyContainer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
  }
 
  @media screen and (min-width: 1050px) {
@@ -191,5 +189,9 @@
         margin-bottom: 30px;
         grid-template-columns: repeat(5, 198px);
         grid-template-rows: 40px;
+     }
+
+     .technologyContainer{
+        justify-content: center;
      }
  }
