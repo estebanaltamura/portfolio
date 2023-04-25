@@ -12,17 +12,12 @@ export const ProjectItem = ({project, name})=>{
     
     const chosenProjectClickHandler = ()=>{
         setCurrentProject({name: name, project: project})   
-        setIsLoadingPreviewVideos(true)
+        setIsLoadingPreviewVideos(true)        
     }
 
     useEffect(()=>{
         currentProject.name == name ? itemElement.current.classList.replace("projectItem", "projectItemActive") : itemElement.current.classList.replace("projectItemActive", "projectItem")
-
     },[currentProject])
-
-    useEffect(()=>{
-         
-    },[name])
 
     return(
         

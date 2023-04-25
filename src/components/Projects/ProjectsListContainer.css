@@ -4,10 +4,9 @@
     flex-direction: column;
     background-color: black;
     width: 100%;
-    max-width: 350px;
     border-radius: 10px;   
     margin: 20px 0;  
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .projectsTitle{
@@ -24,8 +23,8 @@
 
 .closeProjectView{
     position: absolute;
-    top: 55px;
-    left: 290px;
+    top: 53px;
+    right: 47px;
     width: 30px;
     height: 30px;
     color: #cccccc;
@@ -44,6 +43,29 @@
         border-radius: 10px;   
         margin: 20px 0;  
         padding-left: 0;
+    }
+
+    .projectListContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        max-width: 350px;
+        border-radius: 10px;   
+        margin: 20px 0;  
+        padding-left: 20px;
+    }
+
+    .closeProjectView{
+        position: absolute;
+        top: 53px;
+        left: 283px;
+        width: 30px;
+        height: 30px;
+        color: #cccccc;
+        cursor: pointer;
+        
     }
 }
 
