@@ -6,7 +6,7 @@ import "./PreviewItem.css"
 export const PreviewItem = ({type, img, poster})=>{
 
     const [isPlaying, setIsPlaying] = useState(false)
-    const {setIsLoadingPreviewVideos} = useContext(isLoadingPreviewVideosContext)
+    const {isLoadingPreviewVideos, setIsLoadingPreviewVideos} = useContext(isLoadingPreviewVideosContext)
     const mobilePreview = useRef()
 
     useEffect(()=>{
@@ -44,6 +44,15 @@ export const PreviewItem = ({type, img, poster})=>{
             }
         } 
     }
+
+    useEffect(()=>{
+        if (type === "desktop"){
+            if (mobilePreview.current.readyState === 3 || mobilePreview.current.readyState ===4){
+                setIsLoadingPreviewVideos(false)
+                console.log("cargo o ya estaba cargada")           
+            }
+        } 
+    },[isLoadingPreviewVideos])
 
     return(
         <div className={type == "desktop" ? "previewMediaDesktop" : "previewMediaMobile"} onClick={playMobilePreview} >

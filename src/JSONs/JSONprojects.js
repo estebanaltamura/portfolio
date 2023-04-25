@@ -105,8 +105,10 @@ export const projectsData = [
             {name: "React", iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png"},
             {name: "Firebase", iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png"}
         ],
-        "desktopPreview": "https://i.postimg.cc/7LHby70S/javascript-Icon.png",
-        "mobilePreview":   "https://i.postimg.cc/7LHby70S/javascript-Icon.png",
+        "desktopPreviewPoster": "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
+        "mobilePreviewPoster": "https://i.postimg.cc/7LHby70S/javascript-Icon.png",
+        "desktopPreview": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+        "mobilePreview": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
         "gitHubLink": "https://github.com/estebanaltamura/entregaFinal-Altamura",
         "webSiteLink": "https://entrega-final-altamura.vercel.app/"
     }
