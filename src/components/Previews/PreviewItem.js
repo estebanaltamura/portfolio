@@ -71,7 +71,7 @@ export const PreviewItem = ({type, img, poster})=>{
                            :
                     <BsFillPauseFill className={type == "desktop" ? "playDesktop" : "playIconMobile"} />
             }
-            <video className={type == "desktop" ? "desktopVideo" : "mobileVideo"} ref={mobilePreview} src={img} poster={poster} onLoadedMetadata={posterLoadedHandler} />       
+            <video className={type == "desktop" ? "desktopVideo" : "mobileVideo"} ref={mobilePreview} src={img} poster={poster} muted onLoadedMetadata={posterLoadedHandler} />       
         </div>
     )
 }

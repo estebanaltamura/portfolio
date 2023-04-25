@@ -25,8 +25,8 @@ export const projectsData = [
         ],
         "desktopPreviewPoster": "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
         "mobilePreviewPoster": "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png",
-        "desktopPreview": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "mobilePreview": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "desktopPreview": "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
+        "mobilePreview": "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
         "gitHubLink": "https://github.com/estebanaltamura/entregaFinal-Altamura",
         "webSiteLink": "https://entrega-final-altamura.vercel.app/"
     },

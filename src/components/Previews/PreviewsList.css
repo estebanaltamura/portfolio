@@ -4,8 +4,8 @@
     padding: 13px 20px 3px 20px;
     width: 100%;
     height: fit-content;
-    grid-template-columns: 1fr 222px 1fr;
-    grid-template-rows: 422px 18px;
+    grid-template-columns: 1fr 237px 1fr;
+    grid-template-rows: 420px 18px;
     grid-template-areas: ". mobile ." ". previewTitleMobile .";    
 }
 
@@ -33,7 +33,7 @@
 .previewMediaDesktop{
     display: none;
     width: 100%;
-    max-width: 700px;    
+    max-width: 743px;    
     grid-area: desktop;
 }
 
@@ -47,7 +47,7 @@
 
 .previewMediaMobile{
     display: flex;
-    width: 220px;
+    width: 237px;
     height: 420px;
     grid-area: mobile;
 }
@@ -68,8 +68,8 @@
         display: grid;
         padding: 13px 20px 3px 40px;
         width: 100%;
-        grid-template-columns: 224px 60px 704px;
-        grid-template-rows: 426px 18px;
+        grid-template-columns: 237px 60px 745px;
+        grid-template-rows: 420px 18px;
         grid-template-areas: "mobile . desktop" "previewTitleMobile . previewTitleDesktop";        
     }
 
