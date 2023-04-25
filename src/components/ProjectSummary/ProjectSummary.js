@@ -16,7 +16,9 @@ export const ProjectSummary = ()=>{
             left: 0,
             top: projectListElementTop,
             behavior: "smooth",
-        })            
+        })    
+        
+        setMoreLessDetails("More details")
     },[currentProject])
 
  
