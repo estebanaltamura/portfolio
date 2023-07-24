@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { chosenProjectContext } from '../../contexts/ChosenProject';
 import { Welcome } from '../../components/Welcome/Welcome.js';
-import { ProjectsListContainer } from '../../components/Projects/ProjectsListContainer';
+import { ProjectsListContainer } from '../../components/projectsList/ProjectsListContainer';
 import { PreviewsListContainer } from '../../components/Previews/PreviewsListContainer';
 import { ProjectSummary } from '../../components/ProjectSummary/ProjectSummary'; 
 import "./Home.css"
@@ -14,11 +14,11 @@ export const Home = ()=>{
       <Welcome />
       <ProjectsListContainer />
       {
-        currentProject.name !== "" && 
+        currentProject !== null && 
           <>
             <PreviewsListContainer />                                                    
             <ProjectSummary />   
-          </>
+          </> 
       }          
     </div>
   )

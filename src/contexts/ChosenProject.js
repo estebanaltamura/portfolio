@@ -1,17 +1,16 @@
-import { useState, createContext } from 'react';
+import { useState, createContext, useEffect } from "react";
 
-export const chosenProjectContext= createContext()
+export const chosenProjectContext = createContext();
 
-export const ChosenProjectProvider = (props)=>{
+export const ChosenProjectProvider = (props) => {
+  const [currentProject, setCurrentProject] = useState(null);
+ 
 
-    const [currentProject, setCurrentProject] = useState({name: "", project:{}})
-
-    return(
-       
-        <chosenProjectContext.Provider value={{currentProject, setCurrentProject}}>
-            {props.children}
-        </chosenProjectContext.Provider>
-           
-        
-    )
-}    
+  return (
+    <chosenProjectContext.Provider
+      value={{ currentProject, setCurrentProject }}
+    >
+      {props.children}
+    </chosenProjectContext.Provider>
+  );
+};

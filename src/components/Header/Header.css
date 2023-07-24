@@ -1,4 +1,65 @@
 .headerContainer{
+  display: grid;
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  grid-template-columns: 1fr 50px 50px 50px 65px;
+  grid-template-rows: 53px;
+  grid-template-areas: ". mail git linkedin cv";
+  background-color: black;
+  z-index: 1;    
+  align-items: center;
+}
+
+.iconosHeader{
+  color: #d1d1d1;
+  margin: auto;
+}
+
+.iconoMailHeader{
+  width: 27px;
+  height: 27px;   
+  grid-area: mail;
+  background-color: black;
+  border: none;   
+}
+
+.iconoGitHeader{
+  width: 25px;
+  height: 25px;   
+  grid-area: git;
+}
+
+.iconoLinkedinHeader{
+  width: 30px;
+  height: 30px;    
+  grid-area: linkedin;
+}
+
+.iconoCVHeader{
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+  right: -8px;
+  grid-area: cv;
+}
+
+.copiedHeaderMessage{
+  position: absolute;
+  top:27;
+  right: -20px;
+  width: 200px;
+  text-align: center;
+  color: #d1d1d1;
+  grid-area: mail;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1050px) {
+  .headerContainer{
     display: grid;
     position: fixed;
     height: 55px;
@@ -9,90 +70,29 @@
     background-color: black;
     z-index: 1;    
     align-items: center;
-}
+  }
 
-.iconosHeader{
-    color: #d1d1d1;
-    margin: auto;
-}
-
-.iconoMailHeader{
-    width: 27px;
-    height: 27px;   
-    grid-area: mail;
-    background-color: black;
-    border: none;   
-}
-
-.iconoGitHeader{
-    width: 25px;
-    height: 25px;   
-    grid-area: git;
-}
-
-.iconoLinkedinHeader{
+  .iconoMailHeader{
+    width: 40px;
+    height: 40px;         
+  }
+    
+  .iconoGitHeader{
     width: 30px;
-    height: 30px;    
-    grid-area: linkedin;
-}
-
-.iconoCVHeader{
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0;
-    right: -8px;
-    grid-area: cv;
-}
-
-.copiedHeaderMessage{
-    position: absolute;
-    top:27;
-    right: -20px;
-    width: 200px;
-    text-align: center;
-    color: #d1d1d1;
-    grid-area: mail;
-    font-size: 16px;
-}
-
-@media screen and (min-width: 1050px) {
-    .headerContainer{
-        display: grid;
-        position: fixed;
-        height: 55px;
-        width: 100%;
-        grid-template-columns: 1fr 50px 50px 50px 65px;
-        grid-template-rows: 53px;
-        grid-template-areas: ". mail git linkedin cv";
-        background-color: black;
-        z-index: 1;    
-        align-items: center;
-    }
-
-    .iconoMailHeader{
-        width: 40px;
-        height: 40px;         
-    }
+    height: 30px;          
+  }
     
-    .iconoGitHeader{
-        width: 30px;
-        height: 30px;          
-    }
+  .iconoLinkedinHeader{
+    width: 40px;
+    height: 40px;        
+  }
     
-    .iconoLinkedinHeader{
-        width: 40px;
-        height: 40px;        
-    }
+  .iconoCVHeader{
+    font-size: 29px;        
+  }
     
-    .iconoCVHeader{
-        font-size: 29px;        
-    }
-    
-    .copiedHeaderMessage{          
-        right: 0;      
-        font-size: 20px;
-    }
+  .copiedHeaderMessage{          
+    right: 0;      
+    font-size: 20px;
+  }
 }

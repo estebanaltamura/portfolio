@@ -1,47 +1,49 @@
 .previewListContainer{
-    position: relative;    
-    width: 100%;
-    height: fit-content;
-    min-height: 500px;
-    margin: 0 auto;
+  position: relative;    
+  width: 100%;
+  height: fit-content;
+  min-height: 500px;
+  margin: 0 auto;
 }
 
-.previewsTitle{
-    font-size: 26px;
-    padding-left: 40px;
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.4px;
-    text-align: left;
-    margin: 45px 0 10px 0;
-    height: 45px;
-    color: #d1d1d1;
+.previewsTitle{  
+  font-size: 26px;
+  padding-left: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  margin: 45px 0 10px 0;
+  height: 45px;
+  color: #d1d1d1;
 }
 
 .subItemIcon{
-    position: absolute;
-    color: #d1d1d1;
-    top: 7px;
-    left: 20px;
-    width: 20px;
-    height: 20px;
+  position: absolute;
+  color: #d1d1d1;
+  top: 7px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
 }
 
-.spinnerPreview{
-    position: absolute;    
-    top: 50%;
-    left: calc(50% - 16px);
-    color: #d1d1d1;
+
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  height: 120px;
+  width: 120px;
 }
 
 @media screen and (min-width: 1050px) {
-    .subItemIcon{
-        position: absolute;
-        color: #d1d1d1;
-        top: 4px;
-        left: 0;
-        width: 25px;
-        height: 25px;
-    }
+  .subItemIcon{
+    position: absolute;
+    color: #d1d1d1;
+    top: 4px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+  }
 }
