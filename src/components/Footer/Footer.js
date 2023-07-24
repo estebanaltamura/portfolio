@@ -1,5 +1,5 @@
 import { useContext, useState } from "react"
-import { chosenProjectContext } from "../contexts/ChosenProject"
+import { chosenProjectContext } from "../../contexts/ChosenProject"
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { AiFillCopy } from "react-icons/ai";
 import { FiMail, FiGithub } from "react-icons/fi";

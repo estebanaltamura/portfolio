@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { chosenProjectContext } from "../contexts/ChosenProject";
+import { chosenProjectContext } from "../../contexts/ChosenProject";
 import { ProjectsList } from "./ProjectsList"
 import { BsX } from "react-icons/bs";
 import "./ProjectsListContainer.css"

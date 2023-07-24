@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Header } from './components/Header/Header';
-import { Home } from './components/Home/Home'; 
+import { Home } from './pages/Home/Home';
 import { Footer } from './components/Footer/Footer';
 import './App.css';
 
@@ -20,7 +20,8 @@ return (
     <Header />
     <BrowserRouter>
       <Routes>
-        <Route path="*" element ={<Home />} />   
+      <Route path="*" element = {<Navigate to="/home" />} />
+        <Route path="/home" element = {<Home />} />   
       </Routes>
     </BrowserRouter>
     <Footer />

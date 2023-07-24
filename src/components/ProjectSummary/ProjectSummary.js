@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect, useContext } from "react";
-import { chosenProjectContext } from "../contexts/ChosenProject";
+import { chosenProjectContext } from "../../contexts/ChosenProject";
 import "./ProjectSummary.css"
 
 export const ProjectSummary = ()=>{

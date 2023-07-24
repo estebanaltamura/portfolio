@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useContext } from "react"
-import { isLoadingPreviewVideosContext } from "../contexts/IsLoadingPreviewVideosProvider";
+import { isLoadingPreviewVideosContext } from "../../contexts/IsLoadingPreviewVideosProvider";
 
-import { chosenProjectContext } from "../contexts/ChosenProject"
+import { chosenProjectContext } from "../../contexts/ChosenProject"
 import { BsFillPlayFill, BsFillPauseFill } from "react-icons/bs";
 import "./PreviewItem.css"
 

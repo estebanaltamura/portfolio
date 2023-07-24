@@ -1,7 +1,7 @@
 
 import { useContext, useEffect, useRef } from "react"
-import { chosenProjectContext } from "../contexts/ChosenProject"
-import { isLoadingPreviewVideosContext } from "../contexts/IsLoadingPreviewVideosProvider"
+import { chosenProjectContext } from "../../contexts/ChosenProject"
+import { isLoadingPreviewVideosContext } from "../../contexts/IsLoadingPreviewVideosProvider"
 import "./ProjectItem.css"
 
 export const ProjectItem = ({project, name})=>{
