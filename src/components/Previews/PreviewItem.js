@@ -2,25 +2,23 @@ import Carousel from 'react-bootstrap/Carousel';
 import { v4 as randomId } from 'uuid'
 import "./PreviewItem.css"
 
-export const PreviewItem = ({ type, img })=>{    
+export const PreviewItem = ({ type, imgs })=>{    
 
   return(
     <div className={type == "desktop" ? "previewMediaDesktop" : "previewMediaMobile"} > 
       <div id={type} class="carousel slide">
-        <div class="carousel-inner">
-          
-          <div class="carousel-item active">
-            <img className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={img} /> 
-          </div>
-          
-          <div class="carousel-item">
-            <img className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={img} /> 
-          </div>
-    
-          <div class="carousel-item">
-            <img className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={img} /> 
-          </div>
+        <div class="carousel-inner">         
+          <>
+            {
+              imgs !== undefined && imgs.map((img, index)=>{
+                if(index === 0){
+                  return <div class="carousel-item active"><img className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={imgs[0]}/></div>
+                }
+                else return <div class="carousel-item"><img className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={imgs[index]}/></div>
 
+              })
+            }
+          </>
         </div>
       
         <button class="carousel-control-prev controlContainer-prev" type="button" data-bs-target={`#${type}`} data-bs-slide="prev">

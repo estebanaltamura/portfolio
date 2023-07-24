@@ -28,8 +28,7 @@
   width: 30px;
   height: 30px;
   color: #cccccc;
-  cursor: pointer;
-    
+  cursor: pointer;    
 }
 
 @media screen and (min-width: 1050px) {

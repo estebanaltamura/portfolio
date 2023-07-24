@@ -36,10 +36,23 @@ export const projectsData = [
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
       },
     ],
-    desktopPreview:
-      "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
-    mobilePreview:
-      "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png",
+    desktopPreviews:
+    [
+      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
+      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
+      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
+      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+    ],
+      
+    mobilePreviews:
+    [
+      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
+      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
+      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
+      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
+      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+    ],
+      
     // desktopPreview:
     //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
     // mobilePreview:
@@ -78,10 +91,29 @@ export const projectsData = [
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
       },
     ],
-    desktopPreview:
-      "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
-    mobilePreview:
-      "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png"
+    desktopPreviews:
+    [
+      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
+      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
+      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
+      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+    ],
+      
+    mobilePreviews:
+    [
+      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
+      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
+      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
+      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
+      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+    ],
+      
+    // desktopPreview:
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
+    // mobilePreview:
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
+    gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
+    webSiteLink: "https://entrega-final-altamura.vercel.app/",
   },
 
   {
@@ -114,10 +146,29 @@ export const projectsData = [
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
       },
     ],
-    desktopPreview:
-      "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
-    mobilePreview:
-      "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png"
+    desktopPreviews:
+    [
+      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
+      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
+      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
+      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+    ],
+      
+    mobilePreviews:
+    [
+      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
+      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
+      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
+      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
+      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+    ],
+      
+    // desktopPreview:
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
+    // mobilePreview:
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
+    gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
+    webSiteLink: "https://entrega-final-altamura.vercel.app/",
   },
 
   {
@@ -150,10 +201,29 @@ export const projectsData = [
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
       },
     ],
-    desktopPreview:
-      "https://i.postimg.cc/x8B4ZrxG/pandora-Desktop700en1350px.png",
-    mobilePreview:
-      "https://i.postimg.cc/MZNDBJn5/pandora-Mobile220pxen384.png"
+    desktopPreviews:
+    [
+      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
+      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
+      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
+      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+    ],
+      
+    mobilePreviews:
+    [
+      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
+      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
+      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
+      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
+      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+    ],
+      
+    // desktopPreview:
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
+    // mobilePreview:
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
+    gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
+    webSiteLink: "https://entrega-final-altamura.vercel.app/",
   },
 
   {
@@ -186,12 +256,27 @@ export const projectsData = [
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
       },
     ],
-    desktopPreview: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
-    mobilePreview: "https://i.postimg.cc/7LHby70S/javascript-Icon.png",
+    desktopPreviews:
+    [
+      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
+      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
+      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
+      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+    ],
+      
+    mobilePreviews:
+    [
+      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
+      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
+      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
+      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
+      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+    ],
+      
     // desktopPreview:
-    //   "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
     // mobilePreview:
-    //   "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
     gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
     webSiteLink: "https://entrega-final-altamura.vercel.app/",
   },
