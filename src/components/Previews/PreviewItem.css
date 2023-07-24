@@ -12,6 +12,16 @@
   height: 420px;
 }
 
+.desktopPreviewImage{
+  width: 743px;
+  height: 420px;
+}
+
+.mobilePreviewImage{
+  width: 237px;
+  height: 420px;
+}
+
 .playIconMobile{    
   position: absolute;
   top: 250px;
@@ -21,6 +31,21 @@
   height: 50px;
   pointer-events: none;
 }
+
+
+.controlContainer-prev, .controlContainer-next{  
+  width: fit-content;  
+}
+
+.controlIcon-prev, .controlIcon-next{
+  height: 35px;
+  width: 30px;
+  background-color: #48078C;
+  opacity: 1 !important; 
+  transition: none !important;
+}
+
+
 
 
 
