@@ -1,10 +1,10 @@
 import { useRef, useState, useEffect, useContext } from "react";
-import { chosenProjectContext } from "../../contexts/ChosenProject";
+import { CurrentProyectSelectedContext } from "../../contexts/CurrentProyectSelectedContextProvider";
 import { v4 as randomId } from 'uuid'
 import "./ProjectSummary.css";
 
 export const ProjectSummary = () => {
-  const { currentProject } = useContext(chosenProjectContext);
+  const { currentProyectSelected } = useContext(CurrentProyectSelectedContext);
   const [ moreLessDetails, setMoreLessDetails ] = useState("More details");  
   const moreLessDetailsButtonElement = useRef()
 
@@ -16,7 +16,7 @@ export const ProjectSummary = () => {
     
   useEffect(()=>{
     setMoreLessDetails("More details")
-  },[currentProject])
+  },[currentProyectSelected])
 
   useEffect(()=>{
     if(moreLessDetails === "Less details"){
@@ -30,43 +30,22 @@ export const ProjectSummary = () => {
     }
   },[moreLessDetails])
 
-  // const moreLessDetailsButtonElementPosition = moreLessDetailsButtonElement.current.getBoundingClientRect().top
-  // const projectSummaryTitlePosition = projectSummaryTitleElement.current.getBoundingClientRect().top   
-
-
-  // console.log("va a scrollear: ", moreLessDetailsButtonElementPosition)
-  // if (moreLessDetails === "More details") {
-  //   window.scrollBy({
-  //     left: 0,
-  //     top: moreLessDetailsButtonElementPosition,
-  //     behavior: "smooth",
-  //   });
-  // }
-
-  // if(moreLessDetails === "Less details") {
-  //   window.scrollBy({
-  //     left: 0,
-  //     top: projectSummaryTitlePosition - 20,
-  //     behavior: "smooth",
-  //   });
-  // }
-
   return (
     <div className="projectSummaryContainer">
       <h2 className="projectSummaryTitle">Project summary</h2>
 
       <div className="projectSummaryGrid">
-        <p className="projectSummaryName">{currentProject.name}</p>
+        <p className="projectSummaryName">{currentProyectSelected.name}</p>
         <a
           className="projectSummaryParagraph Link viewSiteLink"
-          href={currentProject.project.webSiteLink}
+          href={currentProyectSelected.project.webSiteLink}
           target="_blank"
         >
           View site
         </a>
         <a
           className="projectSummaryParagraph Link gitHubLink"
-          href={currentProject.project.gitHubLink}
+          href={currentProyectSelected.project.gitHubLink}
           target="_blank"
         >
           Git Hub
@@ -74,7 +53,7 @@ export const ProjectSummary = () => {
       </div>
 
       <div className="projectSummaryDescriptionContainer">
-        {currentProject.project.projectSummary.map((sumarryParagraph) => {
+        {currentProyectSelected.project.projectSummary.map((sumarryParagraph) => {
           return (
             <p className="projectSummaryParagraph projectDescription" key={randomId()}>
               {sumarryParagraph}
@@ -85,7 +64,7 @@ export const ProjectSummary = () => {
 
       <div className="technologiesGrid">
         <p className="technologiesTitle">Tecnologias aplicadas</p>
-        {currentProject.project.technologies.map((technology) => {
+        {currentProyectSelected.project.technologies.map((technology) => {
           return (
             <div className="technologyContainer" key={randomId()}>
               <img className="technologyIcons" src={technology.iconSrc} />
@@ -107,7 +86,7 @@ export const ProjectSummary = () => {
 
       {moreLessDetails === "Less details" && (
         <div className="projectSummaryDescriptionContainer">
-          {currentProject.project.projectDetails.map(
+          {currentProyectSelected.project.projectDetails.map(
             (projectDetailsParagraph) => {
               return (
                 <p className="projectSummaryParagraph projectDescription" key={randomId()}>

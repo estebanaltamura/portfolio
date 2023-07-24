@@ -7,7 +7,7 @@ import "./PreviewsListContainer.css"
 
 export const PreviewsListContainer = ()=>{
 
-  const { isLoadingProjectPreview } = useContext(IsLoadingProjectPreviewContext) 
+  const { isLoadingProjectPreview, setIsLoadingProjectPreview } = useContext(IsLoadingProjectPreviewContext) 
 
   const previewImagesLoadedCounterRef = useRef(0)
 
@@ -16,7 +16,7 @@ export const PreviewsListContainer = ()=>{
       previewImagesLoadedCounterRef.current += 1
     }
     if(previewImagesLoadedCounterRef.current === 2){
-      //setIsLoadingProjectPreview(false)
+      setIsLoadingProjectPreview(false)
       previewImagesLoadedCounterRef.current = 0
     }
   } 

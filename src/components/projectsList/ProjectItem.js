@@ -1,34 +1,34 @@
 
 import { useContext, useEffect, useState } from "react"
-import { chosenProjectContext } from "../../contexts/ChosenProject"
+import { CurrentProyectSelectedContext } from "../../contexts/CurrentProyectSelectedContextProvider"
 import { IsLoadingProjectPreviewContext } from "../../contexts/IsLoadingProjectPreviewContextProvider"
 import "./ProjectItem.css"
 
 export const ProjectItem = ({project, name})=>{
-  const {currentProject, setCurrentProject}   = useContext(chosenProjectContext)
-  const { setIsLoadingProjectPreview }        = useContext(IsLoadingProjectPreviewContext)
+  const { currentProyectSelected, setCurrentProyectSelected }   = useContext(CurrentProyectSelectedContext)
+  const { setIsLoadingProjectPreview }                          = useContext(IsLoadingProjectPreviewContext)
 
   const [ isSelected, setIsSelected ] = useState(false)  
     
-  const chosenProjectClickHandler = ()=>{
-    setCurrentProject({name: name, project: project})   
+  const projectSelectedClickHandler = ()=>{
+    setCurrentProyectSelected({name: name, project: project})   
     setIsLoadingProjectPreview(true)        
   }
 
   useEffect(()=>{
-    if(currentProject !== null){      
-      if(currentProject.name === name){
+    if(currentProyectSelected !== null){      
+      if(currentProyectSelected.name === name){
         setIsSelected(true)
-      }
+      } 
       else{
         setIsSelected(false)
       }     
     }  
     else{setIsSelected(false)}         
-  },[currentProject])
+  },[currentProyectSelected])
 
   return(        
-    <button className={isSelected === true ? "projectItemActive" : "projectItem"} onClick={chosenProjectClickHandler} >
+    <button className={isSelected === true ? "projectItemActive" : "projectItem"} onClick={projectSelectedClickHandler} >
       <span className="itemName">
         {name}
       </span>                

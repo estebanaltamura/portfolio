@@ -1,5 +1,5 @@
 import { useContext, useState } from "react"
-import { chosenProjectContext } from "../../contexts/ChosenProject"
+import { CurrentProyectSelectedContext } from "../../contexts/CurrentProyectSelectedContextProvider";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FiMail, FiGithub } from "react-icons/fi";
 import { AiFillCopy } from "react-icons/ai";
@@ -9,7 +9,7 @@ import "./Footer.css"
 
 export const Footer = ()=>{
 
-  const {currentProject} = useContext(chosenProjectContext)
+  const { currentProyectSelected } = useContext(CurrentProyectSelectedContext)
   const [isCopyingEmailFooter, setIsCopyingEmailFooter] = useState(false)
 
   const copyEmailAddressClickHandler = ()=>{        
@@ -26,7 +26,7 @@ export const Footer = ()=>{
   }    
 
   return(
-    <div className={currentProject === null ? "footerContainerWelcome" : "footerContainerProjects"}>
+    <div className={currentProyectSelected === null ? "footerContainerWelcome" : "footerContainerProjects"}>
       <div className="line"></div>
       <div className="contactFooterGrid">
         {

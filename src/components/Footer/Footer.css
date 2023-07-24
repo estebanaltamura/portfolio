@@ -3,7 +3,7 @@
   border-top: 1px solid #cccccc;
 }
 
-.footerContainerWelcome{  
+.footerContainerWelcome{   
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -52,7 +52,7 @@
   display: none;
 }
 
-.footerMail{
+.footerMail{  
   grid-area: mail;
 }
 

@@ -1,30 +1,30 @@
 import { useContext, useEffect, useRef } from "react";
-import { chosenProjectContext } from "../../contexts/ChosenProject";
+import { CurrentProyectSelectedContext } from "../../contexts/CurrentProyectSelectedContextProvider";
 import { ProjectsList } from "./ProjectsList"
 import { BsX } from "react-icons/bs";
 import "./ProjectsListContainer.css"
 
 export const ProjectsListContainer = ()=> {
-  const {currentProject, setCurrentProject} = useContext(chosenProjectContext)
+  const { currentProyectSelected, setCurrentProyectSelected } = useContext(CurrentProyectSelectedContext)
   const projectsSectionElement = useRef()
 
   useEffect(()=>{
     const projectsSectionElementPosition = projectsSectionElement.current.getBoundingClientRect().top
 
-    if(currentProject !== null){
+    if(currentProyectSelected !== null){
       console.log("scrollear x", projectsSectionElementPosition)
       window.scrollBy({
         left: 0,
-        top: projectsSectionElementPosition + 280,
+        top: projectsSectionElementPosition + 280, 
         behavior: "smooth"})
     }    
-  },[currentProject])
+  },[currentProyectSelected])
   
   return(       
     <div className="projectListContainer" id="projectListElement" ref={projectsSectionElement}>
       <h2 className="projectsTitle" >Projects</h2>            
       {
-        currentProject !== null && <BsX className="closeProjectView" onClick={()=>{setCurrentProject(null)}}/>
+        currentProyectSelected !== null && <BsX className="closeProjectView" onClick={()=>{setCurrentProyectSelected(null)}}/>
       }
       <ProjectsList/>            
     </div>
