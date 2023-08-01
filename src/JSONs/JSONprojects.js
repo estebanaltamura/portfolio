@@ -117,7 +117,7 @@ export const projectsData = [
   },
 
   {
-    name: "Italian records search services",
+    name: "Actas italianas express",
     projectSummary: [
       "Actas italianas express es un proyecto que brinda el servicio de gestion del acta italiana del antepasado del interesado que busca obtener su ciudadania italiana en argentina"      
     ],
