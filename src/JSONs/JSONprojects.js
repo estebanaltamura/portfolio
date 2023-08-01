@@ -125,7 +125,7 @@ export const projectsData = [
       "Actas Italianas Express es un proyecto innovador que busca simplificar el proceso de solicitud y obtención de actas italianas para aquellos interesados. Con una plataforma digital eficiente y de fácil acceso, los usuarios pueden dejar su información para ser contactados posteriormente o, si lo prefieren, pueden iniciar una conversación instantánea a través de WhatsApp.",
       "Durante la prueba comercial del proyecto, se realizo una campaña de publicidad en Instagram que generaro un total de 48 leads. De estos, 40 proporcionaron tanto su correo electrónico como su número de teléfono, mientras que 8 solo proporcionaron su dirección de correo electrónico. Como resultado de estas interacciones, se establecieron 26 conversaciones de leads que contestaron mi contacto a través de WhatsApp", 
       "De las 26 conversaciones abiertas 7 resultaron en conversaciones con leads que tenian toda la información necesaria para procesar su solicitud de acta.",
-      "Finalmente, se realizó una venta con un costo de adquisición de u$D17.28 y un retorno sobre la inversión en publicidad (ROAS) de 4.5.",      
+      "Finalmente, se realizó una venta con un costo de adquisición de U$D 17.28 y un retorno sobre la inversión en publicidad (ROAS) de 4.5.",      
       "El proyecto, desarrollado con React, incorpora varias dependencias clave para su funcionamiento, entre las que se incluyen Firestore, SweetAlert2, React-Icons, React-Bootstrap y Lottie-React. La utilización de Firestore permite la persistencia de los datos de los leads.", 
       "Se ha prestado especial a la carga, garantizando que nunca se muestre contenido parcial o desordenado, lo que asegura una experiencia de usuario óptima en todo momento."
     ],
