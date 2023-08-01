@@ -138,24 +138,21 @@ export const projectsData = [
     ],
     desktopPreviews:
     [
-      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
-      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
-      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
-      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+      "https://i.postimg.cc/T1yQW0DK/actas-Italianas-Home-Desktop1.jpg",
+      "https://i.postimg.cc/85Xt59j8/actas-Italianas-Home-Desktop2.jpg",
+      "https://i.postimg.cc/Y9CdtM2f/actas-Italianas-Whatsapp-Contacto-Desktop1.jpg"    
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
-      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
-      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
-      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
-      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+      "https://i.postimg.cc/bvT6XsPw/actas-Italianas-Home-Mobile1.jpg",
+      "https://i.postimg.cc/ncySByTp/actas-Italianas-Home-Mobile2.jpg",
+      "https://i.postimg.cc/rw5nJfYW/actas-Italianas-Whatsapp-Contacto-Mobile1.jpg"
     ],
       
     
     gitHubLink: "https://github.com/estebanaltamura/actasitalianasexpress",
-    webSiteLink: "https://https://www.actasitalianasexpress.com/",
+    webSiteLink: "https://actasitalianasexpress.com/",
   }
 ];
 
