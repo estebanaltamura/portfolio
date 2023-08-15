@@ -51,23 +51,16 @@ export const projectsData = [
       "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
       "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
       "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
-    ],
-      
-    // desktopPreview:
-    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
-    // mobilePreview:
-    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
+    ],      
+    
     gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
     webSiteLink: "https://entrega-final-altamura.vercel.app/",
   },
 
   {
-    name: "Movies and series searcher",
+    name: "Flixfinder",
     projectSummary: [
-      "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products",
-      "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products",
-      "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products",
-      "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products",
+      "FLIXFINDER es una web que permite buscar series y peliculas. Tambien el usuario puede crear un usuario para poder likear peliculas y generar su propia seleccion de contenidos favoritos"     
     ],
     projectDetails: [
       "PANDORA backpacks is a project which is a whole e-commerce developed in React using Firebase to saved the information of orders and products",
@@ -87,33 +80,35 @@ export const projectsData = [
         iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png",
       },
       {
+        name: "NodeJS",
+        iconSrc: "https://i.postimg.cc/TP6KXTGL/node.png",
+      },
+      {
+        name: "Bootstrap",
+        iconSrc: "https://i.postimg.cc/3xZfQCDg/bootstrap.png",
+      },
+      {
         name: "Firebase",
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
       },
     ],
     desktopPreviews:
     [
-      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
-      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
-      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
-      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+      "https://i.postimg.cc/rFk9yRTg/movies-dashboard-desktop-flixfinder.jpg",
+      "https://i.postimg.cc/sfScR9kv/favorites-desktop-flixfinder.jpg",
+      "https://i.postimg.cc/cCQMM0RQ/login-desktop-flixfinder.jpg",
+      "https://i.postimg.cc/V60Fvj5Z/create-account-desktop-flixfinder.jpg"
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
-      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
-      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
-      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
-      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
-    ],
-      
-    // desktopPreview:
-    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25 15-01-23.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/2023-04-25%2015-01-23.mp4?alt=media&token=d4a6d705-7592-4afc-8707-d631be48616a",
-    // mobilePreview:
-    //   "https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=https://firebasestorage.googleapis.com/v0/b/portafolio-b98ea.appspot.com/o/az_recorder_20230425_160007.mp4?alt=media&token=bf8116a1-72a1-4a65-9c8d-2c5310b69fc1",
-    gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
-    webSiteLink: "https://entrega-final-altamura.vercel.app/",
+      "https://i.postimg.cc/SR0fMJMS/movies-dashboard-mobile-flixfinder.jpg",
+      "https://i.postimg.cc/PqR4d6f8/login-mobile-flixfinder.jpg",
+      "https://i.postimg.cc/tgTkQ0bj/create-account-mobile-flixfinder.jpg",
+    ],      
+    
+    gitHubLink: "https://github.com/estebanaltamura/flixfinder",
+    webSiteLink: "https://flixfinder.online/",
   },
 
   {
