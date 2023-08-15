@@ -156,29 +156,4 @@ export const projectsData = [
   }
 ];
 
-/*
-TECNOLOGIAS:
 
-Opciones en texto:
-HTML
-CSS
-JAVASCRIPT
-REACT
-FIREBASE
-
-Opciones iconos:
-HTML:       https://i.postimg.cc/kGPKdGc8/HtmlIcon.png
-CSS:        https://i.postimg.cc/3Rvm6mgY/cssIcon.png
-Javascript: https://i.postimg.cc/7LHby70S/javascript-Icon.png
-React:      https://i.postimg.cc/MZ11m06Y/react-Icon.png
-Firebase:   https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png
-
-
-
-
-imagenes o videos
-mobile 220x410 desktop 700x410
-
-No pueden haber imagenes repetidas entre proyectos
-
-*/
