@@ -24,7 +24,7 @@ export const Header = () => {
     <div className="headerContainer">
       <CopyToClipboard text="esteban.altamura@gmail.com">
         <button
-          className="iconosHeader iconoMailHeader"
+          className="iconoMailHeader iconosHeader"
           onClick={copyEmailAddressHeaderClickHandler}
         >
           <FiMail className="iconosHeader iconoMailHeader" />

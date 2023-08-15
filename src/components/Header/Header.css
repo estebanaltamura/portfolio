@@ -17,8 +17,8 @@
 }
 
 .iconoMailHeader{
-  width: 27px;
-  height: 27px;   
+  width: 32px;
+  height: 32px;   
   grid-area: mail;
   background-color: black;
   border: none;   

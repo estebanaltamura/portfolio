@@ -6,16 +6,4 @@
     
 }    
 
-/*
-.projectList::after{
-  display: block;
-  position: absolute;
-  content:"";
-  width: 1px;
-  height: 145px;
-  top: 10px;
-  left: 0px;
-  background-color: #d1d1d1;
-  z-index: 3;
-}    
-*/
+
