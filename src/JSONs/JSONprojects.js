@@ -137,7 +137,7 @@ export const projectsData = [
       { name: "Firebase", iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png" }
     ],
     desktopPreviews:
-    [
+    [ 
       "https://i.postimg.cc/T1yQW0DK/actas-Italianas-Home-Desktop1.jpg",
       "https://i.postimg.cc/85Xt59j8/actas-Italianas-Home-Desktop2.jpg",
       "https://i.postimg.cc/Y9CdtM2f/actas-Italianas-Whatsapp-Contacto-Desktop1.jpg"    
