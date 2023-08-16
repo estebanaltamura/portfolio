@@ -11,8 +11,7 @@ export const ProjectsListContainer = ()=> {
   useEffect(()=>{
     const projectsSectionElementPosition = projectsSectionElement.current.getBoundingClientRect().top
 
-    if(currentProyectSelected !== null){
-      console.log("scrollear x", projectsSectionElementPosition)
+    if(currentProyectSelected !== null){      
       window.scrollBy({
         left: 0,
         top: projectsSectionElementPosition + 280, 

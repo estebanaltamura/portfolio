@@ -11,11 +11,17 @@ export const ProjectItem = ({project, name})=>{
   const [ isSelected, setIsSelected ] = useState(false)  
     
   const projectSelectedClickHandler = ()=>{
-    setCurrentProyectSelected({name: name, project: project})   
-    setIsLoadingProjectPreview(true)        
+    if(currentProyectSelected === null){
+      setIsLoadingProjectPreview(true)
+      setCurrentProyectSelected({name: name, project: project})
+    }         
+    else if(currentProyectSelected.name !== name){
+      setIsLoadingProjectPreview(true)
+      setCurrentProyectSelected({name: name, project: project})
+    }         
   }
 
-  useEffect(()=>{
+  useEffect(()=>{    
     if(currentProyectSelected !== null){      
       if(currentProyectSelected.name === name){
         setIsSelected(true)
@@ -24,7 +30,7 @@ export const ProjectItem = ({project, name})=>{
         setIsSelected(false)
       }     
     }  
-    else{setIsSelected(false)}         
+    else{setIsSelected(false)}      
   },[currentProyectSelected])
 
   return(        

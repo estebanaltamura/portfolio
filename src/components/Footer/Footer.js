@@ -52,14 +52,14 @@ export const Footer = ()=>{
 
           <span className="footerDivider">|</span>
 
-          <a className="footerContact  footerLinkedin" href="https://www.linkedin.com/in/andr%C3%A9s-altamura-51a55721b/" target="_blank">
+          <a className="footerContact  footerLinkedin" href="https://www.linkedin.com/in/andr%C3%A9s-altamura/" target="_blank">
             <AiOutlineLinkedin className="footerLinkedinIcon"  />
             Linkedin
           </a>
                 
           <span className="footerDivider">|</span>
 
-          <a className="footerContact  footerCV" href="https://drive.google.com/file/d/1mqALxOX5sEzCZvFaSaormUEwuzu_eV3z/view?usp=share_link" target="_blank">
+          <a className="footerContact  footerCV" href="https://drive.google.com/file/d/1mtmtr9O5xsUEh-rHeL2pf0NyAr5msYuc/view?usp=sharing" target="_blank">
             <FiFileText className="footerCVIcon"  />
             Curriculum Vitae
           </a>

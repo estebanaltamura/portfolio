@@ -5,20 +5,12 @@ export const projectsData = [
       "Pandora Mochilas es un ecommerce simulado de mochilas desarrollado en React con un formulario de contacto cuyos datos se persisten en firestore y el proceso de pago esta integrado con mercadopago.",
     ],
     projectDetails: [
-      "Persiste los datos del carro de compras en el local storage para poder recuperar la información ante una recarga o cierre de la página. El evento que dispara la carga de datos al storage es el unload y en el load se descargan. Mientras la página está en uso con normalidad no se persisten los datos del carro en el storage. Si en un contexto global",
-      "Se usaron métodos para que las imágenes no carguen una a una sino que el usuario vea las imágenes aparecer en un solo momento",
-      "Mientras se espera que todo esté cargado para mostrarle al usuario se utilizaron estados loading para colocar un spinner en el proceso",
-      "Hay un contexto global para los artículos agregados al carrito",
-      "Las imágenes están hosteadas en un storage de imágenes",
-      "Tanto los productos con todas sus características y rutas a recursos como las órdenes, se persisten en Firebase",
-      "Se crearon dos escenarios para la finalización de una compra. El pago con tarjeta en el cual como última pantalla muestra el objeto que se le pasaría a MercadoPago en el caso que este proyecto hubiese montado un servidor y se hubiese integrado MercadoPago y la otra opción es una opción custom en el cual hay que dejar los datos para que el vendedor luego lo contacte, en el cual el ecommerce persiste en Firebase todos los productos de la transacción más los datos que completó el usuario en el formulario en una orden.",
-      "Persiste los datos del carro de compras en el local storage para poder recuperar la información ante una recarga o cierre de la página. El evento que dispara la carga de datos al storage es el unload y en el load se descargan. Mientras la página está en uso con normalidad no se persisten los datos del carro en el storage. Si en un contexto global",
-      "Se usaron métodos para que las imágenes no carguen una a una sino que el usuario vea las imágenes aparecer en un solo momento",
-      "Mientras se espera que todo esté cargado para mostrarle al usuario se utilizaron estados loading para colocar un spinner en el proceso",
-      "Hay un contexto global para los artículos agregados al carrito",
-      "Las imágenes están hosteadas en un storage de imágenes",
-      "Tanto los productos con todas sus características y rutas a recursos como las órdenes, se persisten en Firebase",
-      "Se crearon dos escenarios para la finalización de una compra. El pago con tarjeta en el cual como última pantalla muestra el objeto que se le pasaría a MercadoPago en el caso que este proyecto hubiese montado un servidor y se hubiese integrado MercadoPago y la otra opción es una opción custom en el cual hay que dejar los datos para que el vendedor luego lo contacte, en el cual el ecommerce persiste en Firebase todos los productos de la transacción más los datos que completó el usuario en el formulario en una orden.",
+      "Pandora es un e-commerce completo de venta de mochilas. Tiene un carro de compras en el que se puede pagar con mercadopago (proveemos credenciales de prueba para quien quiera testear) y un metodo de orden de compra personalizada, en el que el usuario deja sus datos en un formulario, que junto con la orden de compra son persistidos en firestore, para que luego el vendedor se contacte con el usuario para finalizar la compra.",
+      "Se presto especial atencion a la experiencia de usuario en el sentido del contenido mostrado en cada momento. Nunca se muestra imagenes en proceso de carga, de rederizado, ni el dom desordenado. Mientras las imagenes no estan 100% disponibles se muestra un spinner y cuando todo realmente esta cargado y renderizado, se muestra el contenido.",
+      "Los productos agregados al carrito se persisten en un contexto global y en el local storage. Se utiliza el local storage para que ante un cierre deseado o no, los datos puedan ser recuperados apenas el usuario retorna a la pagina.",
+      "Se desarrollo un servidor en nodeJS, implementado en una instancia EC2 de AWS, el cual sirve para interactuar con la api de mercadopago.",
+      "Los datos que deja el usuario en el formulario de contacto para pago manual junto con la informacion de la orden de compra son persistidos en firestore.",
+      "Las dependencia utilizadas fueron: react-router-dom, firebase, bootstrap, react-icons, uuid, sweetalert2"      
     ],
     technologies: [
       { name: "HTML", iconSrc: "https://i.postimg.cc/kGPKdGc8/HtmlIcon.png" },
@@ -31,6 +23,11 @@ export const projectsData = [
         name: "React",
         iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png",
       },
+      {
+        name: "NodeJS",
+        iconSrc: "https://i.postimg.cc/TP6KXTGL/node.png",
+      },
+      { name: "MP", iconSrc: "https://i.postimg.cc/rs0BxZZx/mercadopago.png" },  
       {
         name: "Firebase",
         iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png",
@@ -53,8 +50,8 @@ export const projectsData = [
       "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
     ],      
     
-    gitHubLink: "https://github.com/estebanaltamura/entregaFinal-Altamura",
-    webSiteLink: "https://entrega-final-altamura.vercel.app/",
+    gitHubLink: "https://github.com/estebanaltamura/pandoraBackpacks",
+    webSiteLink: "https://pandorabackpacks.online/",
   },
 
   {
@@ -70,6 +67,7 @@ export const projectsData = [
       "Persistencia de los datos del usuario en el navegador: Mientras el usuario no se desloguee, el token y sus contenidos preferidos son persistidos en el local storage, para que en caso de que el usuario vuelva en el futuro no haya necesidad de loguearse otra vez. Al desloguearse se remueve toda informacion de la aplicacion en el local storage",
       "Respuesta ágil y actualizaciones asincrónicas: Cuando un usuario modifica su contenido favorito, se modifica su contexto global asociado, la aplicación responde instantáneamente reflejando el nuevo estado de ese contexto. Cada vez que hay un cambio en el contexto, firestore es actualizado en forma asincrona. Esto garantiza una experiencia de usuario fluida y rápida.",
       "Compartir contenido: Con Flixfinder, compartir tus contenidos favoritos es sencillo. Incorporamos funcionalidades para compartir a través de WhatsApp y Twitter. Mientras que para WhatsApp utilizamos react-share, en Twitter hemos implementado enlaces dinámicos para una integración sin problemas.",
+      "Las dependencia utilizadas fueron: react-router-dom, axios, lottie-react, firebase, bootstrap, react-icons, uuid, sweetalert2" 
     ],    
     technologies: [
       { name: "HTML", iconSrc: "https://i.postimg.cc/kGPKdGc8/HtmlIcon.png" },
@@ -97,7 +95,7 @@ export const projectsData = [
     ],
     desktopPreviews:
     [
-      "https://i.postimg.cc/rFk9yRTg/movies-dashboard-desktop-flixfinder.jpg",
+      "https://i.postimg.cc/sDSm6cBz/movies-dashboard-desktop-flixfinder.jpg",
       "https://i.postimg.cc/sfScR9kv/favorites-desktop-flixfinder.jpg",
       "https://i.postimg.cc/cCQMM0RQ/login-desktop-flixfinder.jpg",
       "https://i.postimg.cc/V60Fvj5Z/create-account-desktop-flixfinder.jpg"
@@ -105,10 +103,10 @@ export const projectsData = [
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/SR0fMJMS/movies-dashboard-mobile-flixfinder.jpg",
-      "https://i.postimg.cc/Y9456rpn/movies-dashboard2-mobile-flixfinder.jpg",
+      "https://i.postimg.cc/GtcC92Tg/movies-dashboard-mobile-flixfinder.jpg",
+      "https://i.postimg.cc/7hmyzkgH/movies-dashboard2-mobile-flixfinder.jpg",
       "https://i.postimg.cc/PqR4d6f8/login-mobile-flixfinder.jpg",
-      "https://i.postimg.cc/tgTkQ0bj/create-account-mobile-flixfinder.jpg",
+      "https://i.postimg.cc/rz6dR5cC/create-account-mobile-flixfinder.jpg",
     ],      
     
     gitHubLink: "https://github.com/estebanaltamura/flixfinder",
@@ -126,14 +124,14 @@ export const projectsData = [
       "Se ha prestado especial a la carga, garantizando que nunca se muestre contenido parcial o desordenado, lo que asegura una experiencia de usuario óptima en todo momento.",
       "Durante la prueba comercial del proyecto, se realizo una campaña de publicidad en Instagram que generaro un total de 48 leads. De estos, 40 proporcionaron tanto su correo electrónico como su número de teléfono, mientras que 8 solo proporcionaron su dirección de correo electrónico. Como resultado de estas interacciones, se establecieron 26 conversaciones de leads que contestaron mi contacto a través de WhatsApp", 
       "De las 26 conversaciones abiertas 7 resultaron en conversaciones con leads que tenian toda la información necesaria para procesar su solicitud de acta.",
-      "Finalmente, se realizó una venta con un costo de adquisición de U$D 17.28 y un retorno sobre la inversión en publicidad (ROAS) de 4.5."      
-      
+      "Finalmente, se realizó una venta con un costo de adquisición de U$D 17.28 y un retorno sobre la inversión en publicidad (ROAS) de 4.5.",      
+      "Las dependencia utilizadas fueron: react-router-dom, lottie-react, firebase, bootstrap, react-icons, sweetalert2" 
     ],
     technologies: [
       { name: "HTML", iconSrc: "https://i.postimg.cc/kGPKdGc8/HtmlIcon.png" },
       { name: "CSS", iconSrc: "https://i.postimg.cc/3Rvm6mgY/cssIcon.png" },
       { name: "Javascript", iconSrc: "https://i.postimg.cc/7LHby70S/javascript-Icon.png" },
-      { name: "React", iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png" },
+      { name: "React", iconSrc: "https://i.postimg.cc/MZ11m06Y/react-Icon.png" },          
       { name: "Firebase", iconSrc: "https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png" }
     ],
     desktopPreviews:

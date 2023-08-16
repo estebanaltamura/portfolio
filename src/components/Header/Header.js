@@ -41,7 +41,7 @@ export const Header = () => {
 
       <a
         className="iconosHeader iconoLinkedinHeader"
-        href="https://www.linkedin.com/in/andr%C3%A9s-altamura-51a55721b/"
+        href="https://www.linkedin.com/in/andr%C3%A9s-altamura/"
         target="_blank"
       >
         <AiOutlineLinkedin className="iconosHeader iconoLinkedinHeader" />
@@ -49,7 +49,7 @@ export const Header = () => {
 
       <a
         className="iconosHeader iconoCVHeader"
-        href="https://drive.google.com/file/d/1mqALxOX5sEzCZvFaSaormUEwuzu_eV3z/view?usp=share_link"
+        href="https://drive.google.com/file/d/1mtmtr9O5xsUEh-rHeL2pf0NyAr5msYuc/view?usp=sharing"
         target="_blank"
       >
         CV

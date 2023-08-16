@@ -14,4 +14,4 @@ export const IsLoadingProjectPreviewContextProvider = ({ children }) => {
   );
 };
 
-/*([true, true]) es ([desktop, mobile])*/
+

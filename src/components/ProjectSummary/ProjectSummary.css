@@ -126,6 +126,8 @@
 .projectDescription{
   grid-area: description;
   margin-bottom: 20px;
+  cursor: text;
+  user-select:text;
 }
 
  .technologiesGrid{
