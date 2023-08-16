@@ -38,7 +38,7 @@
 
 .projectItem:hover{
   z-index: 3;
-  background-color: #cccccc;
+  background-color: #f1ffb2;
   font-weight: 900;
   color: black;
   text-align: left;
