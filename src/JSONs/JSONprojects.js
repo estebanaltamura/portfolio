@@ -5,11 +5,11 @@ export const projectsData = [
       "Pandora Mochilas es un ecommerce simulado de mochilas desarrollado en React con un formulario de contacto cuyos datos se persisten en firestore y el proceso de pago esta integrado con mercadopago.",
     ],
     projectDetails: [
-      "Pandora es un e-commerce completo de venta de mochilas. Tiene un carro de compras en el que se puede pagar con mercadopago (proveemos credenciales de prueba para quien quiera testear) y un metodo de orden de compra personalizada, en el que el usuario deja sus datos en un formulario, que junto con la orden de compra son persistidos en firestore, para que luego el vendedor se contacte con el usuario para finalizar la compra.",
-      "Se presto especial atencion a la experiencia de usuario en el sentido del contenido mostrado en cada momento. Nunca se muestra imagenes en proceso de carga, de rederizado, ni el dom desordenado. Mientras las imagenes no estan 100% disponibles se muestra un spinner y cuando todo realmente esta cargado y renderizado, se muestra el contenido.",
+      "Pandora es un e-commerce completo de venta de mochilas. Tiene un carro de compras en el que se puede pagar con mercadopago (provéo credenciales de prueba para quien quiera testear) y un método de orden de compra personalizada, en el que el usuario deja sus datos en un formulario",
+      "Se presto especial atención a la experiencia de usuario en el sentido del contenido mostrado en cada momento. Nunca se muestra imagenes en proceso de carga, de rederizado, ni el dom desordenado. Mientras las imágenes no estan 100% disponibles se muestra un spinner y cuando todo realmente esta cargado y renderizado, se muestra el contenido.",
       "Los productos agregados al carrito se persisten en un contexto global y en el local storage. Se utiliza el local storage para que ante un cierre deseado o no, los datos puedan ser recuperados apenas el usuario retorna a la pagina.",
       "Se desarrollo un servidor en nodeJS, implementado en una instancia EC2 de AWS, el cual sirve para interactuar con la api de mercadopago.",
-      "Los datos que deja el usuario en el formulario de contacto para pago manual junto con la informacion de la orden de compra son persistidos en firestore.",
+      "Los datos que deja el usuario en el formulario de contacto para pago manual, junto con la información de la orden de compra, son persistidos en firestore, para que luego el vendedor se contacte con el usuario para finalizar la compra.",
       "Las dependencias utilizadas fueron: react-router-dom, firebase, bootstrap, react-icons, uuid, sweetalert2"      
     ],
     technologies: [
