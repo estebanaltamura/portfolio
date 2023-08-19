@@ -35,19 +35,20 @@ export const projectsData = [
     ],
     desktopPreviews:
     [
-      "https://i.postimg.cc/g0cyffCX/home-desktop-1.jpg",
-      "https://i.postimg.cc/VkWBZYVP/home-desktop-2.jpg",
-      "https://i.postimg.cc/28vxvdd6/colecciones-desktop-1.jpg",
-      "https://i.postimg.cc/2j1GjNVn/carro-desktop-1.jpg"
+      "https://i.postimg.cc/59TwQ41h/pandora-Home-Desktop.jpg",
+      "https://i.postimg.cc/LX0jTRPZ/pandora-Collection-Desktop.jpg",
+      "https://i.postimg.cc/4yDtD5Bf/pandora-Product-Desktop.jpg",
+      "https://i.postimg.cc/1tzpw48Q/pandora-Cart-Desktop.jpg",
+      "https://i.postimg.cc/6q2nbSVb/pandora-MPDesktop.jpg"
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/5yQ6h39F/home-mobile-1.jpg",
-      "https://i.postimg.cc/G90Hdy9g/home-mobile-2.jpg",
-      "https://i.postimg.cc/C1zGKbLw/home-mobile-3.jpg",
-      "https://i.postimg.cc/mDDcw40j/colecciones-mobile-1.jpg",
-      "https://i.postimg.cc/FRBYCqv4/carro-mobile-1.jpg"
+      "https://i.postimg.cc/766xgJSw/pandora-Home-Mobile.jpg",
+      "https://i.postimg.cc/8CwpJmJZ/pandora-Collection-Mobile.jpg",
+      "https://i.postimg.cc/tTM9DRzP/pandora-Product-Mobile.jpg",
+      "https://i.postimg.cc/PJvT7G67/pandora-Cart-Mobile.jpg",
+      "https://i.postimg.cc/XvnNYzJZ/pandora-MPMobile.jpg"
     ],      
     
     gitHubLink: "https://github.com/estebanaltamura/pandoraBackpacks",
