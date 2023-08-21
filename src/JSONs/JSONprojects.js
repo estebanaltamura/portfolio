@@ -172,7 +172,7 @@ export const projectsData = [
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/2SCQhcCg/home-Plumarii1.jpg",
+      "https://i.postimg.cc/bvgBvWH3/home-Plumarii1.jpg",
       
     ],      
     

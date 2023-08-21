@@ -14,7 +14,7 @@ export const PreviewsList = ({ isLoading})=>{
               <PreviewItem type="desktop" imgs={currentProyectSelected.project.desktopPreviews}/>
               <p className="previewTitleDesktop">Desktop</p>      
       </div>
-      <p className="noDesktopPreviewMessage">*La preview version desktop de este proyecto se puede ver en el portfolio en su version de escritorio</p>
+      <p className={currentProyectSelected.project.name === "Plumarii" ? 'hidden' : "noDesktopPreviewMessage"}>*La preview version desktop de este proyecto se puede ver en el portfolio en su version de escritorio</p>
     </>
   )
 }
