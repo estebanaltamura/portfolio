@@ -13,7 +13,7 @@ export const Welcome = () => {
         <p className="welcomeParagraphs">Haber emprendido muchos años en diversos proyectos hicieron que me transforme en un profesional versátil, capaz de trabajar con equipos multidisciplinarios y desarrollando la habilidad de gestionar eficazmente la ambigüedad de los proyectos complejos. 
         </p>
         <p className="welcomeParagraphs">
-        Con mi experiencia en tecnología y emprendimiento sé que puedo aportar mis habilidades y conocimientos a cualquier empresa.
+        Con mi experiencia en tecnología y emprendedurismo sé que puedo aportar mis habilidades y conocimientos a cualquier empresa.
         </p>	         
       </div>
     </div>

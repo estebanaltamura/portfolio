@@ -14,7 +14,7 @@ export const ProjectsListContainer = ()=> {
     if(currentProyectSelected !== null){      
       window.scrollBy({
         left: 0,
-        top: projectsSectionElementPosition + 280, 
+        top: projectsSectionElementPosition + 290, 
         behavior: "smooth"})
     }    
   },[currentProyectSelected])
