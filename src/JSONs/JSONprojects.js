@@ -35,20 +35,20 @@ export const projectsData = [
     ],
     desktopPreviews:
     [
-      "https://i.postimg.cc/59TwQ41h/pandora-Home-Desktop.jpg",
-      "https://i.postimg.cc/LX0jTRPZ/pandora-Collection-Desktop.jpg",
-      "https://i.postimg.cc/4yDtD5Bf/pandora-Product-Desktop.jpg",
-      "https://i.postimg.cc/1tzpw48Q/pandora-Cart-Desktop.jpg",
-      "https://i.postimg.cc/6q2nbSVb/pandora-MPDesktop.jpg"
+      ["img", "https://i.postimg.cc/59TwQ41h/pandora-Home-Desktop.jpg"],
+      ["img", "https://i.postimg.cc/LX0jTRPZ/pandora-Collection-Desktop.jpg"],
+      ["img", "https://i.postimg.cc/4yDtD5Bf/pandora-Product-Desktop.jpg"],
+      ["img", "https://i.postimg.cc/1tzpw48Q/pandora-Cart-Desktop.jpg"],
+      ["img", "https://i.postimg.cc/6q2nbSVb/pandora-MPDesktop.jpg"]
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/766xgJSw/pandora-Home-Mobile.jpg",
-      "https://i.postimg.cc/8CwpJmJZ/pandora-Collection-Mobile.jpg",
-      "https://i.postimg.cc/tTM9DRzP/pandora-Product-Mobile.jpg",
-      "https://i.postimg.cc/PJvT7G67/pandora-Cart-Mobile.jpg",
-      "https://i.postimg.cc/XvnNYzJZ/pandora-MPMobile.jpg"
+      ["img", "https://i.postimg.cc/766xgJSw/pandora-Home-Mobile.jpg"],
+      ["img", "https://i.postimg.cc/8CwpJmJZ/pandora-Collection-Mobile.jpg"],
+      ["img", "https://i.postimg.cc/tTM9DRzP/pandora-Product-Mobile.jpg"],
+      ["img", "https://i.postimg.cc/PJvT7G67/pandora-Cart-Mobile.jpg"],
+      ["img", "https://i.postimg.cc/XvnNYzJZ/pandora-MPMobile.jpg"]
     ],      
     
     gitHubLink: "https://github.com/estebanaltamura/pandoraBackpacks",
@@ -96,18 +96,18 @@ export const projectsData = [
     ],
     desktopPreviews:
     [
-      "https://i.postimg.cc/sDSm6cBz/movies-dashboard-desktop-flixfinder.jpg",
-      "https://i.postimg.cc/sfScR9kv/favorites-desktop-flixfinder.jpg",
-      "https://i.postimg.cc/cCQMM0RQ/login-desktop-flixfinder.jpg",
-      "https://i.postimg.cc/V60Fvj5Z/create-account-desktop-flixfinder.jpg"
+      ["img", "https://i.postimg.cc/sDSm6cBz/movies-dashboard-desktop-flixfinder.jpg"],
+      ["img", "https://i.postimg.cc/sfScR9kv/favorites-desktop-flixfinder.jpg"],
+      ["img", "https://i.postimg.cc/cCQMM0RQ/login-desktop-flixfinder.jpg"],
+      ["img", "https://i.postimg.cc/V60Fvj5Z/create-account-desktop-flixfinder.jpg"]
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/GtcC92Tg/movies-dashboard-mobile-flixfinder.jpg",
-      "https://i.postimg.cc/7hmyzkgH/movies-dashboard2-mobile-flixfinder.jpg",
-      "https://i.postimg.cc/PqR4d6f8/login-mobile-flixfinder.jpg",
-      "https://i.postimg.cc/rz6dR5cC/create-account-mobile-flixfinder.jpg",
+      ["img", "https://i.postimg.cc/GtcC92Tg/movies-dashboard-mobile-flixfinder.jpg"],
+      ["img", "https://i.postimg.cc/7hmyzkgH/movies-dashboard2-mobile-flixfinder.jpg"],
+      ["img", "https://i.postimg.cc/PqR4d6f8/login-mobile-flixfinder.jpg"],
+      ["img", "https://i.postimg.cc/rz6dR5cC/create-account-mobile-flixfinder.jpg"],
     ],      
     
     gitHubLink: "https://github.com/estebanaltamura/flixfinder",
@@ -136,16 +136,16 @@ export const projectsData = [
     ],
     desktopPreviews:
     [ 
-      "https://i.postimg.cc/T1yQW0DK/actas-Italianas-Home-Desktop1.jpg",
-      "https://i.postimg.cc/85Xt59j8/actas-Italianas-Home-Desktop2.jpg",
-      "https://i.postimg.cc/Y9CdtM2f/actas-Italianas-Whatsapp-Contacto-Desktop1.jpg"    
+      ["img", "https://i.postimg.cc/T1yQW0DK/actas-Italianas-Home-Desktop1.jpg"],
+      ["img", "https://i.postimg.cc/85Xt59j8/actas-Italianas-Home-Desktop2.jpg"],
+      ["img", "https://i.postimg.cc/Y9CdtM2f/actas-Italianas-Whatsapp-Contacto-Desktop1.jpg"]    
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/bvT6XsPw/actas-Italianas-Home-Mobile1.jpg",
-      "https://i.postimg.cc/ncySByTp/actas-Italianas-Home-Mobile2.jpg",
-      "https://i.postimg.cc/rw5nJfYW/actas-Italianas-Whatsapp-Contacto-Mobile1.jpg"
+      ["img", "https://i.postimg.cc/bvT6XsPw/actas-Italianas-Home-Mobile1.jpg"],
+      ["img", "https://i.postimg.cc/ncySByTp/actas-Italianas-Home-Mobile2.jpg"],
+      ["img", "https://i.postimg.cc/rw5nJfYW/actas-Italianas-Whatsapp-Contacto-Mobile1.jpg"]
     ],      
     
     gitHubLink: "https://github.com/estebanaltamura/actasitalianasexpress",
@@ -170,26 +170,30 @@ export const projectsData = [
     ],
     desktopPreviews:
     [   
-      "https://i.postimg.cc/QtJGxgrQ/no-Image-Desktop.jpg"
+      ["img", "https://i.postimg.cc/QtJGxgrQ/no-Image-Desktop.jpg"]      
     ],
       
     mobilePreviews:
     [
-      "https://i.postimg.cc/bvgBvWH3/home-Plumarii1.jpg",
-      "https://i.postimg.cc/2jwWH0qY/home-Plumarii2.jpg",
-      "https://i.postimg.cc/Fz9LrLBw/home-Plumarii3.jpg", 
-      "https://i.postimg.cc/kgZY2J9T/home-Plumarii4.jpg",
-      "https://i.postimg.cc/qMv3W2n3/home-Plumarii5.jpg",
-      "https://i.postimg.cc/dtNyFDmS/home-Plumarii6.jpg",
-      "https://i.postimg.cc/mk8Ftrxk/home-Plumarii7.jpg",
-      "https://i.postimg.cc/3RZkcwx1/collections-Plumarii1.jpg",
-      "https://i.postimg.cc/mD4cj9Bh/products-Plumarii1.jpg",
-      "https://i.postimg.cc/6Qn2CcsD/cart-Plumarii1.jpg",
-      "https://i.postimg.cc/2SqBSm0j/institucional-Plumarii1.jpg",
-      "https://i.postimg.cc/9Qvw4Skd/institucional-Plumarii2.jpg",
-      "",
-      ""
-      
+      ["img", "https://i.postimg.cc/bvgBvWH3/home-Plumarii1.jpg"],
+      ["img", "https://i.postimg.cc/2jwWH0qY/home-Plumarii2.jpg"],
+      ["img", "https://i.postimg.cc/Fz9LrLBw/home-Plumarii3.jpg"], 
+      ["img", "https://i.postimg.cc/kgZY2J9T/home-Plumarii4.jpg"],
+      ["img", "https://i.postimg.cc/qMv3W2n3/home-Plumarii5.jpg"],
+      ["img", "https://i.postimg.cc/dtNyFDmS/home-Plumarii6.jpg"],
+      ["img", "https://i.postimg.cc/mk8Ftrxk/home-Plumarii7.jpg"],
+      ["img", "https://i.postimg.cc/3RZkcwx1/collections-Plumarii1.jpg"],
+      ["img", "https://i.postimg.cc/mD4cj9Bh/products-Plumarii1.jpg"],
+      ["img", "https://i.postimg.cc/6Qn2CcsD/cart-Plumarii1.jpg"],
+      ["img", "https://i.postimg.cc/2SqBSm0j/institucional-Plumarii1.jpg"],
+      ["img", "https://i.postimg.cc/9Qvw4Skd/institucional-Plumarii2.jpg"],
+      ["video", "https://player.vimeo.com/video/856401646"], 
+      ["video", "https://player.vimeo.com/video/856401787"],
+      ["video", "https://player.vimeo.com/video/856401820"],
+      ["video", "https://player.vimeo.com/video/856401854"],
+      ["video", "https://player.vimeo.com/video/856401902"],
+      ["video", "https://player.vimeo.com/video/856401955"],
+      ["video", "https://player.vimeo.com/video/856401996"],
     ],      
     
     gitHubLink: "",
