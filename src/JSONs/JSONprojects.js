@@ -163,7 +163,10 @@ export const projectsData = [
       "Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii ",      
       "Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii " 
     ],
-    technologies: [     
+    technologies: [ 
+      { name: "HTML", iconSrc: "https://i.postimg.cc/kGPKdGc8/HtmlIcon.png" },
+      { name: "CSS", iconSrc: "https://i.postimg.cc/3Rvm6mgY/cssIcon.png" },
+      { name: "Javascript", iconSrc: "https://i.postimg.cc/7LHby70S/javascript-Icon.png" }    
     ],
     desktopPreviews:
     [   
@@ -173,6 +176,19 @@ export const projectsData = [
     mobilePreviews:
     [
       "https://i.postimg.cc/bvgBvWH3/home-Plumarii1.jpg",
+      "https://i.postimg.cc/2jwWH0qY/home-Plumarii2.jpg",
+      "https://i.postimg.cc/Fz9LrLBw/home-Plumarii3.jpg", 
+      "https://i.postimg.cc/kgZY2J9T/home-Plumarii4.jpg",
+      "https://i.postimg.cc/qMv3W2n3/home-Plumarii5.jpg",
+      "https://i.postimg.cc/dtNyFDmS/home-Plumarii6.jpg",
+      "https://i.postimg.cc/mk8Ftrxk/home-Plumarii7.jpg",
+      "https://i.postimg.cc/3RZkcwx1/collections-Plumarii1.jpg",
+      "https://i.postimg.cc/mD4cj9Bh/products-Plumarii1.jpg",
+      "https://i.postimg.cc/6Qn2CcsD/cart-Plumarii1.jpg",
+      "https://i.postimg.cc/2SqBSm0j/institucional-Plumarii1.jpg",
+      "https://i.postimg.cc/9Qvw4Skd/institucional-Plumarii2.jpg",
+      "",
+      ""
       
     ],      
     
