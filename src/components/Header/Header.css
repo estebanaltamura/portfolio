@@ -7,7 +7,7 @@
   grid-template-rows: 53px;
   grid-template-areas: ". mail git linkedin cv";
   background-color: black;
-  z-index: 1;    
+  z-index: 3;    
   align-items: center;
 }
 
