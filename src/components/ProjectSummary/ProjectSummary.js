@@ -16,6 +16,7 @@ export const ProjectSummary = () => {
     
   useEffect(()=>{
     setMoreLessDetails("More details")
+    console.log(currentProyectSelected.project.webSiteLink)
   },[currentProyectSelected])
 
   useEffect(()=>{
@@ -37,14 +38,14 @@ export const ProjectSummary = () => {
       <div className="projectSummaryGrid">
         <p className="projectSummaryName">{currentProyectSelected.name}</p>
         <a
-          className="projectSummaryParagraph Link viewSiteLink"
+          className={currentProyectSelected.project.webSiteLink === "" ? "hidden" : "projectSummaryParagraph Link viewSiteLink"}
           href={currentProyectSelected.project.webSiteLink}
           target="_blank"
         >
           View site
         </a>
         <a
-          className="projectSummaryParagraph Link gitHubLink"
+          className={currentProyectSelected.project.gitHubLink === "" ? "hidden" : "projectSummaryParagraph Link gitHubLink"}
           href={currentProyectSelected.project.gitHubLink}
           target="_blank"
         >

@@ -3,17 +3,9 @@
   border-top: 1px solid #cccccc;
 }
 
-.footerContainerWelcome{   
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  margin: 0 auto;
-  width: 100%;
-  height: 160px;
-  margin-top: 60px;    
-}
 
-.footerContainerProjects{     
+
+.footerContainer{     
   display: flex;
   flex-direction: column;
   justify-content: center;  
@@ -92,32 +84,20 @@
 
 
 @media screen and (min-width: 1050px) {
-  .footerContainerWelcome{  
-    position: absolute;
+  .footerContainer{   
     display: flex;
     flex-direction: column;
-    bottom: 0;
-    left: calc((100% - 1050px) / 2);   
+    justify-content: center; 
     margin: 0 auto;
-    width: 1050px;
+    width: 100%;
     height: 60px;
     margin-top: 60px;    
-  }
-
-  .footerContainerProjects{     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    margin: 0 auto;
-    width: 1050px;
-    height: 60px;
-    margin-top: 60px;
   }
 
   .contactFooterGrid{
     display: grid;
     margin: auto;
-    align-items: center;
+    align-items: center;    
     grid-template-columns: 240px 20px 240px 20px 240px 20px 240px;
     grid-template-rows: 60px;
     grid-template-areas: "mail . git . linkedin . cv";

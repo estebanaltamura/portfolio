@@ -32,15 +32,16 @@
   display: block;
   padding: 0 5px;    
   font-style:inherit;
-  font-family: Montserrat, sans-serif;    
+  font-family: 'Roboto Mono'; 
+  font-size: 18px;   
   line-height: 1.5;    
 }
 
 .projectItem:hover{
   z-index: 3;
-  background-color: #f7ffd6;
+  background-color: #48078C;
   font-weight: 900;
-  color: black;
+  color: white;
   text-align: left;
   border-radius: 5px;
   border: 1px;

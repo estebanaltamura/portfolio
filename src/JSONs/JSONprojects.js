@@ -150,6 +150,34 @@ export const projectsData = [
     
     gitHubLink: "https://github.com/estebanaltamura/actasitalianasexpress",
     webSiteLink: "https://actasitalianasexpress.com/",
+  },
+  {
+    name: "Plumarii",
+    projectSummary: [
+      "Plumarii Plumarii Plumarii Plumarii Plumarii "      
+    ],
+    projectDetails: [
+      "Plumarii Plumarii Plumarii Plumarii Plumarii ",
+      "Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii ", 
+      "Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii ",
+      "Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii ",      
+      "Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii Plumarii " 
+    ],
+    technologies: [     
+    ],
+    desktopPreviews:
+    [   
+      "https://i.postimg.cc/QtJGxgrQ/no-Image-Desktop.jpg"
+    ],
+      
+    mobilePreviews:
+    [
+      "https://i.postimg.cc/2SCQhcCg/home-Plumarii1.jpg",
+      
+    ],      
+    
+    gitHubLink: "",
+    webSiteLink: "",
   }
 ];
 

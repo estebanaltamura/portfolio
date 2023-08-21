@@ -26,7 +26,7 @@ export const Footer = ()=>{
   }    
 
   return(
-    <div className={currentProyectSelected === null ? "footerContainerWelcome" : "footerContainerProjects"}>
+    <div className="footerContainer">
       <div className="line"></div>
       <div className="contactFooterGrid">
         {

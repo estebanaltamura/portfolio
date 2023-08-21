@@ -6,7 +6,6 @@
 
 .projectSummaryTitle{
   font-size: 26px;
-  font-family: Montserrat, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.4px;
@@ -27,13 +26,11 @@
 
 .projectSummaryParagraph{
   color: #cccccc;
-  font-family: Montserrat, sans-serif;
   font-size: 16px;
 }
 
 .projectSummaryName{
   color: #d1d1d1;
-  font-family: Montserrat, sans-serif;
   font-size: 18px;
   margin-right: 20px;
   font-weight: 500;
@@ -87,7 +84,6 @@
 
 .projectDetailsTitle{
   font-size: 26px;
-  font-family: Montserrat, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.4px;

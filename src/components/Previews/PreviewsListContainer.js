@@ -12,8 +12,7 @@ export const PreviewsListContainer = ()=>{
   const previewImagesLoadedCounterRef = useRef(0)
 
   const onLoadPreviewImagesHandler = (event)=>{
-    if(event.target.classList.value.includes("mainPreviewImage")){
-      console.log(event.target.src)
+    if(event.target.classList.value.includes("mainPreviewImage")){      
       previewImagesLoadedCounterRef.current += 1
     }
     if(previewImagesLoadedCounterRef.current === 2){
