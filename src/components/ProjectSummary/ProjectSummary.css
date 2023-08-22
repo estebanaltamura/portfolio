@@ -41,22 +41,9 @@
   font-weight: 400;  
   width: fit-content; 
   margin: auto;
-  text-decoration:  underline wavy;
+  text-decoration:  underline;
 }
 
-.link:hover{
-  cursor: pointer;
-  font-weight: 500;
-  color: yellow; 
-  border-bottom: 2px solid white;
-}
-
-.link:visited{
-  cursor: pointer;
-  font-weight: 400;  
-  color: #cccccc;  
-  border-bottom: 2px solid #d1d1d1;
-}
 
 .projectSummaryDescriptionContainer{
   margin: 20px 0;
@@ -111,7 +98,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 20px;
-  height: 55px;
+  height: 55px;  
+  text-decoration: underline !important;
   grid-area: linkSite;
 }
 
@@ -121,8 +109,14 @@
   align-items: center;
   height: 55px;
   margin: 0 20px;
+  text-decoration: underline !important;
   grid-area: LinkGitHub;
 }
+
+.viewSiteLink:visited{
+  text-decoration: underline !important;
+}
+
 
 .shortDescription{
   grid-area: shortDescription;   

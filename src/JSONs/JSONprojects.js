@@ -51,7 +51,7 @@ export const projectsData = [
       ["img", "https://i.postimg.cc/XvnNYzJZ/pandora-MPMobile.jpg"]
     ],      
     
-    gitHubLink: "https://github.com/estebanaltamura/pandoraBackpacks",
+    gitHubLink: "https://github.com/estebanaltamura/pandora-backpacks",
     webSiteLink: "https://pandorabackpacks.online/",
   },
 
@@ -149,7 +149,7 @@ export const projectsData = [
       ["img", "https://i.postimg.cc/rw5nJfYW/actas-Italianas-Whatsapp-Contacto-Mobile1.jpg"]
     ],      
     
-    gitHubLink: "https://github.com/estebanaltamura/actasitalianasexpress",
+    gitHubLink: "https://github.com/estebanaltamura/actas-italianas-express",
     webSiteLink: "https://actasitalianasexpress.com/",
   },
   {
