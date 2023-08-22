@@ -18,7 +18,7 @@
 .projectSummaryGrid{
   display: grid;
   width: 100%;
-  grid-template-rows: 35px 55px;
+  grid-template-rows: 35px auto;
   grid-template-columns: 50% 50%;
   grid-template-areas:  "name name" "linkSite LinkGitHub";
   align-items: center;
@@ -36,13 +36,13 @@
   font-weight: 500;
 }
 
-.Link{
+a .Link{  
   cursor: pointer;
-  font-weight: 400;
-  border-bottom: 2px solid #d1d1d1;
+  font-weight: 400;  
   width: fit-content;
-  height: fit-content;
+  height: 55px;
   margin: auto;
+  text-decoration:  underline wavy red;
 }
 
 .link:hover{
@@ -56,6 +56,7 @@
   cursor: pointer;
   font-weight: 400;
   color: #cccccc;  
+  text-decoration:  underline wavy red;
   border-bottom: 2px solid #d1d1d1;
 }
 
@@ -96,7 +97,7 @@
 .projectDetailsParagraphs{
   font-size: 16px;
   color: #cccccc;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 .linkName{
@@ -108,10 +109,18 @@
 }
 
 .viewSiteLink{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
   grid-area: linkSite;
 }
 
 .gitHubLink{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
   grid-area: LinkGitHub;
 }
 
@@ -162,7 +171,7 @@
   .projectSummaryGrid{
     display: grid;
     width: 100%;
-    grid-template-columns: auto 1fr 100px 100px;
+    grid-template-columns: auto 1fr auto auto;
     grid-template-rows: 40px;
     grid-template-areas:  "name . linkSite LinkGitHub";
     align-items: center;

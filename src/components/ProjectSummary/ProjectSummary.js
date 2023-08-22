@@ -37,20 +37,27 @@ export const ProjectSummary = () => {
 
       <div className="projectSummaryGrid">
         <p className="projectSummaryName">{currentProyectSelected.name}</p>
-        <a
-          className={currentProyectSelected.project.webSiteLink === "" ? "hidden" : "projectSummaryParagraph Link viewSiteLink"}
-          href={currentProyectSelected.project.webSiteLink}
-          target="_blank"
-        >
-          View site
-        </a>
-        <a
-          className={currentProyectSelected.project.gitHubLink === "" ? "hidden" : "projectSummaryParagraph Link gitHubLink"}
-          href={currentProyectSelected.project.gitHubLink}
-          target="_blank"
-        >
-          Git Hub
-        </a>
+
+        {currentProyectSelected.project.webSiteLink !== "" &&
+          <a
+            className="projectSummaryParagraph Link viewSiteLink"
+            href={currentProyectSelected.project.webSiteLink}
+            target="_blank"
+          >
+            View site
+          </a>
+        }
+
+        {currentProyectSelected.project.gitHubLink !== "" &&
+          <a
+            className={currentProyectSelected.project.gitHubLink === "" ? "hidden" : "projectSummaryParagraph Link gitHubLink"}
+            href={currentProyectSelected.project.gitHubLink}
+            target="_blank"
+          >
+              Git Hub
+          </a>      
+        }
+        
       </div>
 
       <div className="projectSummaryDescriptionContainer">
