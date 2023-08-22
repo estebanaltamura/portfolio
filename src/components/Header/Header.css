@@ -7,7 +7,7 @@
   grid-template-rows: 53px;
   grid-template-areas: ". mail git linkedin cv";
   background-color: black;
-  z-index: 3;    
+  z-index: 2 !important;    
   align-items: center;
 }
 
@@ -17,22 +17,22 @@
 }
 
 .iconoMailHeader{
-  width: 32px;
-  height: 32px;   
+  width: 28px;
+  height: 28px;   
   grid-area: mail;
   background-color: black;
   border: none;   
 }
 
 .iconoGitHeader{
-  width: 25px;
-  height: 25px;   
+  width: 26px;
+  height: 26px;   
   grid-area: git;
 }
 
 .iconoLinkedinHeader{
-  width: 30px;
-  height: 30px;    
+  width: 29px;
+  height: 29px;    
   grid-area: linkedin;
 }
 
@@ -73,22 +73,22 @@
   }
 
   .iconoMailHeader{
-    width: 40px;
-    height: 40px;         
+    width: 28px;
+    height: 28px;         
   }
     
   .iconoGitHeader{
-    width: 30px;
-    height: 30px;          
+    width: 26px;
+    height: 26px;          
   }
     
   .iconoLinkedinHeader{
-    width: 40px;
-    height: 40px;        
+    width: 30px;
+    height: 30px;        
   }
     
   .iconoCVHeader{
-    font-size: 29px;        
+    font-size: 25px;        
   }
     
   .copiedHeaderMessage{          
