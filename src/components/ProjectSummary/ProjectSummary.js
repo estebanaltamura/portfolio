@@ -40,7 +40,7 @@ export const ProjectSummary = () => {
 
         {currentProyectSelected.project.webSiteLink !== "" &&
           <a
-            className="projectSummaryParagraph Link viewSiteLink"
+            className="projectSummaryParagraph link viewSiteLink"
             href={currentProyectSelected.project.webSiteLink}
             target="_blank"
           >
@@ -50,7 +50,7 @@ export const ProjectSummary = () => {
 
         {currentProyectSelected.project.gitHubLink !== "" &&
           <a
-            className={currentProyectSelected.project.gitHubLink === "" ? "hidden" : "projectSummaryParagraph Link gitHubLink"}
+            className={currentProyectSelected.project.gitHubLink === "" ? "hidden" : "projectSummaryParagraph link gitHubLink"}
             href={currentProyectSelected.project.gitHubLink}
             target="_blank"
           >
