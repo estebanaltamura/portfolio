@@ -15,18 +15,18 @@ export const PreviewItem = ({ type, media })=>{
                   return <div key={randomId()} className="carousel-item active">
                             {
                               content[0] === "img" ?
-                                <img className={type == "desktop" ? "desktopPreviewImage previewImage mainPreviewImage" : "mobilePreviewImage previewImage mainPreviewImage"} src={media[0][1]} />
+                                <img className={type == "desktop" ? "desktopPreviewImage previewImage mainPreviewMedia" : "mobilePreviewImage previewImage mainPreviewMedia"} src={media[0][1]} />
                                                 :                                                
-                                <iframe className={type == "desktop" ? "desktopPreviewImage previewImage mainPreviewImage" : "mobilePreviewImage previewImage mainPreviewImage"} src={media[0][1]} controls autoplay></iframe>
+                                <iframe className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={media[0][1]} controls autoplay></iframe>
                             }
                           </div>
                 }
                 else return <div key={randomId()} className="carousel-item">
                               {
                               content[0] === "img" ?
-                                <img className={type == "desktop" ? "desktopPreviewImage previewImage mainPreviewImage" : "mobilePreviewImage previewImage mainPreviewImage"} src={media[index][1]} />
+                                <img className={type == "desktop" ? "desktopPreviewImage previewImage mainPreviewMedia" : "mobilePreviewImage previewImage mainPreviewMedia"} src={media[index][1]} />
                                                 :
-                                <iframe className={type == "desktop" ? "desktopPreviewImage previewImage mainPreviewImage" : "mobilePreviewImage previewImage mainPreviewImage"} src={media[index][1]} controls autoplay></iframe>
+                                <iframe className={type == "desktop" ? "desktopPreviewImage previewImage" : "mobilePreviewImage previewImage"} src={media[index][1]} controls autoplay></iframe>
                               }
                             </div>
 
