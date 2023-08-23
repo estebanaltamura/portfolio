@@ -92,7 +92,7 @@ export const ProjectSummary = () => {
         </div>
       </div>
 
-      {moreLessDetails === "Less details" && (
+      {moreLessDetails === "Menos detalles" && (
         <div className="projectSummaryDescriptionContainer">
           {currentProyectSelected.project.projectDetails.map(
             (projectDetailsParagraph) => {

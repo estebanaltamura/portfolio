@@ -32,7 +32,7 @@ export const ProjectItem = ({project, name})=>{
     }  
     else{setIsSelected(false)}      
   },[currentProyectSelected])
-
+  
   return(        
     <button className={isSelected === true ? "projectItemActive" : "projectItem"} onClick={projectSelectedClickHandler} >
       <span className="itemName">

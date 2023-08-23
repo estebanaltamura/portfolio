@@ -18,6 +18,14 @@ export const ProjectsListContainer = ()=> {
         behavior: "smooth"})
     }    
   },[currentProyectSelected])
+
+  useEffect(()=>{
+    window.scrollTo({
+      left: 0,
+      top: 0, 
+      behavior: "smooth"})
+  },[])    
+ 
   
   return(       
     <div className="projectListContainer" id="projectListElement" ref={projectsSectionElement}>
