@@ -24,7 +24,7 @@ export const PreviewsListContainer = ()=>{
   return(      
     <div className="previewListContainer" onLoad={onLoadPreviewImagesHandler}>
       <BsArrowReturnRight className="subItemIcon"/>
-      <h2 className="previewsTitle">Previews</h2>
+      <h2 className="previewsTitle">Vista previa</h2>
       {     
         <div className={isLoadingProjectPreview === true  ? "spinnerContainer" : "hidden"}>
           <img src={spinnerUrl} className="spinner" />

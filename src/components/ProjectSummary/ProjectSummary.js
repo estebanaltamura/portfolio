@@ -5,22 +5,22 @@ import "./ProjectSummary.css";
 
 export const ProjectSummary = () => {
   const { currentProyectSelected } = useContext(CurrentProyectSelectedContext);
-  const [ moreLessDetails, setMoreLessDetails ] = useState("More details");  
+  const [ moreLessDetails, setMoreLessDetails ] = useState("Mas detalles");  
   const moreLessDetailsButtonElement = useRef()
 
   const moreDetailsClickHandler = () => {
-    moreLessDetails === "More details"
-    ? setMoreLessDetails("Less details")
-    : setMoreLessDetails("More details");
+    moreLessDetails === "Mas detalles"
+    ? setMoreLessDetails("Menos detalles")
+    : setMoreLessDetails("Mas detalles");
   };
     
   useEffect(()=>{
-    setMoreLessDetails("More details")
+    setMoreLessDetails("Mas detalles")
     console.log(currentProyectSelected.project.webSiteLink)
   },[currentProyectSelected])
 
   useEffect(()=>{
-    if(moreLessDetails === "Less details"){
+    if(moreLessDetails === "Menos detalles"){
       const moreLessDetailsButtonElementPosition = moreLessDetailsButtonElement.current.getBoundingClientRect().top
       
       window.scrollBy({
@@ -33,7 +33,7 @@ export const ProjectSummary = () => {
 
   return (
     <div className="projectSummaryContainer">
-      <h2 className="projectSummaryTitle">Project summary</h2>
+      <h2 className="projectSummaryTitle">Resumen</h2>
 
       <div className="projectSummaryGrid">
         <p className="projectSummaryName">{currentProyectSelected.name}</p>

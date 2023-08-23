@@ -21,7 +21,7 @@ export const ProjectsListContainer = ()=> {
   
   return(       
     <div className="projectListContainer" id="projectListElement" ref={projectsSectionElement}>
-      <h2 className="projectsTitle" >Projects</h2>            
+      <h2 className="projectsTitle" >Proyectos</h2>            
       {
         currentProyectSelected !== null && <BsX className="closeProjectView" onClick={()=>{setCurrentProyectSelected(null)}}/>
       }
