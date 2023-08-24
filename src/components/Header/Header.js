@@ -49,7 +49,7 @@ export const Header = () => {
 
       <a
         className="iconosHeader iconoCVHeader"
-        href="https://drive.google.com/file/d/1z4UZE_jNp237KAX249oCa2WQnAEoZbqE/view?usp=sharing"
+        href="https://drive.google.com/file/d/19E5Ry7_NDwi5BBaT8rDytLdkAKF2rwyY/view?usp=sharing"
         target="_blank"
       >
         CV

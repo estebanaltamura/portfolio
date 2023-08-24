@@ -59,7 +59,7 @@ export const Footer = ()=>{
                 
           <span className="footerDivider">|</span>
 
-          <a className="footerContact  footerCV" href="hhttps://drive.google.com/file/d/1z4UZE_jNp237KAX249oCa2WQnAEoZbqE/view?usp=sharing" target="_blank">
+          <a className="footerContact  footerCV" href="https://drive.google.com/file/d/19E5Ry7_NDwi5BBaT8rDytLdkAKF2rwyY/view?usp=sharing" target="_blank">
             <FiFileText className="footerCVIcon"  />
             Curriculum Vitae
           </a>
