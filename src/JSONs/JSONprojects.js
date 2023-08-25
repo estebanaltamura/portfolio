@@ -5,11 +5,10 @@ export const projectsData = [
       "Pandora Mochilas es un ecommerce de mochilas desarrollado en React con un formulario de contacto cuyos datos se persisten en firestore y el proceso de pago esta integrado con mercadopago.",
     ],
     projectDetails: [
-      "Pandora es un e-commerce completo de venta de mochilas. Tiene un carro de compras en el que se puede pagar con mercadopago (provéo credenciales de prueba para quien quiera testear) y un método de orden de compra personalizada, en el que el usuario deja sus datos en un formulario",
-      "Se prestó especial atención a la experiencia de usuario en el sentido del contenido mostrado en cada momento. Nunca se muestra imágenes en proceso de carga, de rederizado, ni el dom desordenado. Mientras las imágenes no están 100% disponibles, se muestra un spinner y cuando todo realmente esta cargado y renderizado, se muestra el contenido.",
+      "Pandora es un e-commerce completo de venta de mochilas. Tiene un carro de compras en el que se puede pagar con mercadopago (provéo credenciales de prueba para quien quiera testear) y un método de orden de compra personalizada, en el que el usuario deja sus datos en un formulario, que junto con los datos de la orden son persistidos en firestore para que luego el vendedor lo contacte para cerrar la transaccion",
+      "Se prestó especial atención a la experiencia de usuario, en el sentido del contenido mostrado en cada momento. Nunca se muestra imágenes en proceso de carga, de rederizado, ni el dom desordenado. Mientras las imágenes no están 100% disponibles, se muestra un spinner y cuando todo realmente esta cargado y renderizado, se muestra el contenido.",
       "Los productos agregados al carrito se persisten en un contexto global y en el local storage. Se utiliza el local storage para que ante un cierre deseado o no, los datos puedan ser recuperados apenas el usuario retorna a la pagina.",
       "Se desarrolló un servidor en nodeJS, implementado en una instancia EC2 de AWS, el cual sirve para interactuar con la api de mercadopago.",
-      "Los datos que deja el usuario en el formulario de contacto para pago manual, junto con la información de la orden de compra, son persistidos en firestore, para que luego el vendedor se contacte con el usuario para finalizar la compra.",
       "Las dependencias utilizadas fueron: react-router-dom, firebase, bootstrap, react-icons, uuid, sweetalert2"      
     ],
     technologies: [
@@ -66,8 +65,8 @@ export const projectsData = [
       "Los usuarios registrados pueden marcar contenidos como favoritos con un 'like'. Estas preferencias se almacenan de manera segura en Firestore, creando una experiencia personalizada para cada usuario.",
       "El contenido visual se carga por completo antes de presentarlo, evitando imágenes parciales o cargas progresivas. Esto elimina el desorden visual, evita parpadeos y asegura una presentación excelente.",
       "Mientras el usuario no se desloguee, el token y sus contenidos preferidos son persistidos en el local storage, para que en caso de que el usuario vuelva en el futuro no haya necesidad de loguearse otra vez. Al desloguearse se remueve toda información de la aplicación en el local storage.",
-      "Cuando un usuario modifica su contenido favorito, se modifica su contexto global asociado, la aplicación responde instantáneamente reflejando el nuevo estado de ese contexto. Cada vez que hay un cambio en el contexto, firestore es actualizado en forma asincrona. Esto garantiza una experiencia de usuario fluida y rápida.",
-      "Compartir contenidos favoritos es sencillo. El proyecto incorporo funcionalidades para compartir a través de WhatsApp y Twitter. Mientras que para WhatsApp utilicé react-share, en Twitter implementé enlaces dinámicos para una integración sin problemas.",
+      "Cuando un usuario modifica su contenido favorito, se modifica su contexto global asociado, la aplicación responde instantáneamente reflejando el nuevo estado de ese contexto. Cada vez que hay un cambio en el contexto, firestore es actualizado en forma asíncrona. Esto garantiza una experiencia de usuario fluida y rápida.",
+      "Compartir contenidos favoritos es sencillo. El proyecto incorporo funcionalidades para compartir a través de WhatsApp y Twitter. Mientras que para WhatsApp utilicé react-share, en Twitter implementé enlaces dinámicos.",
       "Las dependencias utilizadas fueron: react-router-dom, axios, lottie-react, firebase, bootstrap, react-icons, uuid, react-copy-to-clipboard, sweetalert2" 
     ],    
     technologies: [
@@ -160,12 +159,12 @@ export const projectsData = [
     projectDetails: [
       "Plumarii desde el comienzo fué un desafío. Nuestra idea original fue generar una propuesta valiosa para consumidoras americanas, ofrecida de forma 100% online y cumplimentando el procesamiento y despacho de las órdenes de compra de forma 100% automatizada.",
       "Como base administativa montamos una empresa en el estado de Florida.", 
-      "Investigamos mucho sobre el gusto de las consumidoras de nuestro target, como así tambien investigamos la forma en que ese target consumía el contenido relacionado a propuestas similares.",
-      "En septiembre de 2021, realizamos un viaje a Estados unidos donde terminamos de desarrollar proveedores de servicios, productos e insumos que fueron vitales para completar nuestra primera propuesta viable.",      
-      "También en ese viaje logramos cerrar un trato con un depósito completamente automatizado para el cumplimiento de órdenes de compra. Ese proveedor de logistica nos permitía conectarnos mediante su api. Ante la detección de una venta, no requerían de nuestra autorización puntual para cumplimentar la orden de forma automatica, ya que por integraciones, configuraciones previas y haber enviado la mercadería a su deposito cumpliendo con un protocolo de códigos de barras, todo funcionaba.",
       "Uno de los desafíos permanentes fue la personalización diaria de la página, ya que probamos muchísimas propuestas para optimizar los resultados. Nuestra página (plumarii.com) hoy dia no está vigente, pero en en el carrousel de imágenes dejo screens de varias pantallas, como asi también imágenes del proyecto en general y anuncios en formato video.",
       "La plataforma que utlizamos fue shopify. El motivo principal no fue la facilidad para el diseño, sinó que nos brindaba medios de pagos integrados en estados unidos y la posibilidad de conectarnos a la api del proveedor de logística.",
       "Shopify fue bastante frustrante para su edición desde el código, ya que además de utilizar HTML, CSS y Javascript, utilizaba Ruby on Rails y Liquid (el cual es un lenguaje particular creado por shopify). A pesar de eso, logré conseguir un diseño muy usable y apreciado, ya que las métricas de compra, de marketing digital, métricas propias personalizadas basadas en el flujo de uso del cliente y grabaciones de hotjar lo comprobaron.",
+      "Investigamos mucho sobre el gusto de las consumidoras de nuestro target, como así tambien investigamos la forma en que ese target consumía el contenido relacionado a propuestas similares.",
+      "En septiembre de 2021, realizamos un viaje a Estados unidos donde terminamos de desarrollar proveedores de servicios, productos e insumos que fueron vitales para completar nuestra primera propuesta viable.",      
+      "También en ese viaje logramos cerrar un trato con un depósito completamente automatizado para el cumplimiento de órdenes de compra. Ese proveedor de logistica nos permitía conectarnos mediante su api. Ante la detección de una venta, no requerían de nuestra autorización puntual para cumplimentar la orden de forma automatica, ya que por integraciones, configuraciones previas y haber enviado la mercadería a su deposito cumpliendo con un protocolo de códigos de barras, todo funcionaba.",
       "El instagram de plumarii aun abierto es: https://www.instagram.com/plumariiok/"
     ],
     technologies: [ 

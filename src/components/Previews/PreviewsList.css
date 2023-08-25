@@ -26,13 +26,6 @@
   grid-area: previewTitleDesktop;
 }
 
-.previewMediaDesktop{
-  display: none;
-  width: 100%;
-  max-width: 743px;    
-  grid-area: desktop;
-}
-
 .previewTitleMobile{
   display: flex;
   margin: auto;
@@ -41,12 +34,6 @@
   grid-area: previewTitleMobile;
 }
 
-.previewMediaMobile{
-  display: flex;
-  width: 237px;
-  height: 420px;
-  grid-area: mobile;
-}
 
 .noDesktopPreviewMessage{
   display: block;

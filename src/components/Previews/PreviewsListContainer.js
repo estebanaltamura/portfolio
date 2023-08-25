@@ -17,7 +17,7 @@ export const PreviewsListContainer = ()=>{
     }
     if(previewImagesLoadedCounterRef.current === 2){
       setIsLoadingProjectPreview(false)
-      previewImagesLoadedCounterRef.current = 0
+      previewImagesLoadedCounterRef.current = 0 
     }
   } 
 
