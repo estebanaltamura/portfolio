@@ -7,6 +7,7 @@ export const projectsData = [
     projectDetails: [
       "Pandora es un e-commerce completo de venta de mochilas. Tiene un carro de compras en el que se puede pagar con mercadopago (provéo credenciales de prueba para quien quiera testear) y un método de orden de compra personalizada, en el que el usuario deja sus datos en un formulario, que junto con los datos de la orden son persistidos en firestore para que luego el vendedor lo contacte para cerrar la transaccion",
       "Se prestó especial atención a la experiencia de usuario, en el sentido del contenido mostrado en cada momento. Nunca se muestra imágenes en proceso de carga, de rederizado, ni el dom desordenado. Mientras las imágenes no están 100% disponibles, se muestra un spinner y cuando todo realmente esta cargado y renderizado, se muestra el contenido.",
+      "Se manejaron los errores para la solicitud de colecciones, productos e interactuando con mercadopago",
       "Los productos agregados al carrito se persisten en un contexto global y en el local storage. Se utiliza el local storage para que ante un cierre deseado o no, los datos puedan ser recuperados apenas el usuario retorna a la pagina.",
       "Se desarrolló un servidor en nodeJS, implementado en una instancia EC2 de AWS, el cual sirve para interactuar con la api de mercadopago.",
       "Las dependencias utilizadas fueron: react-router-dom, firebase, bootstrap, react-icons, uuid, sweetalert2"      
