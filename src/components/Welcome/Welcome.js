@@ -5,7 +5,7 @@ export const Welcome = () => {
     <div className="welcomeContainer">
       <h2 className="welcomeTitle">Hola.</h2>
       <div className="paragraphsContainer">
-        <p className="welcomeParagraphs">Mi nombre es Andrés altamura, soy Desarrollador frontend React.
+        <p className="welcomeParagraphs">Mi nombre es Andrés altamura, soy desarrollador frontend React.
         </p>
         <p className="welcomeParagraphs">
           De chico me conecté con el desarrollo y el mundo de la informática, pero al salir de la secundaria me incliné por el mundo emprendedor.
