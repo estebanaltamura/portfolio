@@ -1,4 +1,3 @@
-import Carousel from 'react-bootstrap/Carousel';
 import { v4 as randomId } from 'uuid'
 import "./PreviewItem.css"
 

@@ -21,7 +21,7 @@ export const ProjectItem = ({project, name})=>{
     }         
   }
 
-  useEffect(()=>{    
+  useEffect(()=>{     
     if(currentProyectSelected !== null){      
       if(currentProyectSelected.name === name){
         setIsSelected(true)
