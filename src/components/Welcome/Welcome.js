@@ -9,9 +9,9 @@ export const Welcome = () => {
           Mi nombre es Andrés, soy desarrollador Frontend React-Typescript.
         </p>
         <p className='welcomeParagraphs'>
-          Soy desarrollador Frontend, tengo un perfil startup, me gustan los
-          emprendimientos, creo en los procesos ágiles, dinámicos y de mucha
-          iteración con los usuarios y el mercado.
+          Tengo un perfil startup, me gustan los emprendimientos, creo en los
+          procesos ágiles, dinámicos y de mucha iteración con los usuarios y el
+          mercado.
         </p>
         <p className='welcomeParagraphs'>
           En los últimos años trabajé en una incubadora de negocios como
