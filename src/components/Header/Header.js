@@ -42,7 +42,7 @@ export const Header = () => {
 
       <a
         className='iconosHeader iconoLinkedinHeader'
-        href='https://www.linkedin.com/in/andr%C3%A9s-altamura/'
+        href='https://www.linkedin.com/in/andres-altamura/'
         target='_blank'
         rel='noreferrer'
       >
