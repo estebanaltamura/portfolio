@@ -16,10 +16,12 @@ export const Welcome = () => {
         <p className='welcomeParagraphs'>
           En los últimos años trabajé en una incubadora de negocios como
           referente tecnológico, co-fundé una empresa de venta de indumentaria
-          en Argentina con excelente posicionamiento y solidas ventas. Tambien
-          co-fundé una empresa de venta de indumentaria en Estados Unidos. En
-          esta última experiencia casi quiebro, pero entendí que esto es lo mio,
-          me encanta emprender y el proceso startup en su conjunto.
+          en Argentina con excelente posicionamiento y solidas ventas.
+        </p>
+        <p className='welcomeParagraphs'>
+          Tambien co-fundé una empresa de venta de indumentaria en Estados
+          Unidos. En esta última experiencia casi quiebro, pero entendí que esto
+          es lo mio, me encanta emprender y el proceso startup en su conjunto.
         </p>
         <p className='welcomeParagraphs'>
           Haber emprendido muchos años en diversos proyectos y trabajado en
