@@ -34,7 +34,7 @@ export const Header = () => {
       <a
         className='iconosHeader iconoGitHeader'
         href='https://github.com/estebanaltamura?tab=repositories'
-        target='_blank'
+        target='_blank without rel="noreferrer"'
         rel='noreferrer'
       >
         <FiGithub className='iconoGitHeader' />
@@ -43,7 +43,7 @@ export const Header = () => {
       <a
         className='iconosHeader iconoLinkedinHeader'
         href='https://www.linkedin.com/in/andres-altamura/'
-        target='_blank'
+        target='_blank without rel="noreferrer"'
         rel='noreferrer'
       >
         <AiOutlineLinkedin className='iconosHeader iconoLinkedinHeader' />
@@ -52,7 +52,7 @@ export const Header = () => {
       <a
         className='iconosHeader iconoCVHeader'
         href='https://drive.google.com/file/d/1mqtxLOzBAMEbttJd2hkwEYH9VLsGteSQ/view?usp=sharing'
-        target='_blank'
+        target='_blank without rel="noreferrer"'
         rel='noreferrer'
       >
         CV

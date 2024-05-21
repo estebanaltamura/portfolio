@@ -1,5 +1,4 @@
-import { useContext, useState } from 'react';
-import { CurrentProyectSelectedContext } from '../../contexts/CurrentProyectSelectedContextProvider';
+import { useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { FiMail, FiGithub } from 'react-icons/fi';
 import { AiFillCopy } from 'react-icons/ai';
@@ -8,7 +7,6 @@ import { FiFileText } from 'react-icons/fi';
 import './Footer.css';
 
 export const Footer = () => {
-  const { currentProyectSelected } = useContext(CurrentProyectSelectedContext);
   const [isCopyingEmailFooter, setIsCopyingEmailFooter] = useState(false);
 
   const copyEmailAddressClickHandler = () => {
@@ -28,7 +26,7 @@ export const Footer = () => {
     <div className='footerContainer'>
       <div className='line'></div>
       <div className='contactFooterGrid'>
-        {isCopyingEmailFooter == false ? (
+        {isCopyingEmailFooter === false ? (
           <CopyToClipboard text='esteban.altamura@gmail.com'>
             <button
               className='footerContact footerMail'
@@ -48,7 +46,7 @@ export const Footer = () => {
         <a
           className='footerContact  footerGit'
           href='https://github.com/estebanaltamura?tab=repositories'
-          target='_blank'
+          target='_blank without rel="noreferrer"'
           rel='noreferrer'
         >
           <FiGithub className='footerGitIcon' />
@@ -60,7 +58,7 @@ export const Footer = () => {
         <a
           className='footerContact  footerLinkedin'
           href='https://www.linkedin.com/in/andres-altamura/'
-          target='_blank'
+          target='_blank without rel="noreferrer"'
           rel='noreferrer'
         >
           <AiOutlineLinkedin className='footerLinkedinIcon' />
@@ -72,7 +70,7 @@ export const Footer = () => {
         <a
           className='footerContact  footerCV'
           href='https://drive.google.com/file/d/1mqtxLOzBAMEbttJd2hkwEYH9VLsGteSQ/view?usp=sharing'
-          target='_blank'
+          target='_blank without rel="noreferrer"'
           rel='noreferrer'
         >
           <FiFileText className='footerCVIcon' />
