@@ -95,7 +95,7 @@ export const projectsData = [
       ['img', '/assets/login-desktop.jpg'],
     ],
 
-    mobilePreviews: [['img', '/assets/no-image-mobile.jpg']],
+    mobilePreviews: [['img', '/assets/publicar-mobile.jpg']],
 
     gitHubLink: '',
     webSiteLink: '',
