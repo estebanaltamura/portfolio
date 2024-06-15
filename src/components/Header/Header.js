@@ -23,10 +23,7 @@ export const Header = () => {
   return (
     <div className='headerContainer'>
       <CopyToClipboard text='esteban.altamura@gmail.com'>
-        <button
-          className='iconoMailHeader iconosHeader'
-          onClick={copyEmailAddressHeaderClickHandler}
-        >
+        <button className='iconoMailHeader iconosHeader' onClick={copyEmailAddressHeaderClickHandler}>
           <FiMail className='iconosHeader iconoMailHeader' />
         </button>
       </CopyToClipboard>
@@ -51,15 +48,13 @@ export const Header = () => {
 
       <a
         className='iconosHeader iconoCVHeader'
-        href='https://drive.google.com/file/d/1mqtxLOzBAMEbttJd2hkwEYH9VLsGteSQ/view?usp=sharing'
+        href='https://drive.google.com/file/d/1X7VTxJ9HQAAyqZxnQPZNpxsI3RsJtpG7/view?usp=sharing'
         target='_blank without rel="noreferrer"'
         rel='noreferrer'
       >
         CV
       </a>
-      {isCopyingEmailHeader && (
-        <span className='copiedHeaderMessage'>Copied!</span>
-      )}
+      {isCopyingEmailHeader && <span className='copiedHeaderMessage'>Copied!</span>}
     </div>
   );
 };

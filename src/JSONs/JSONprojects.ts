@@ -296,3 +296,86 @@ export const projectsData = [
     webSiteLink: 'https://flixfinder.online/',
   },
 ];
+
+interface IExperiences {
+  name: string;
+  period: string;
+  role: string;
+  logoImgSrc: string;
+  details: string[];
+}
+
+export const experiences: IExperiences[] = [
+  {
+    name: 'Koi ventures',
+    period: 'nov/2023 - presente',
+    role: 'Referente tecnologico',
+    logoImgSrc: 'https://i.postimg.cc/G21DmtNd/next-png.png',
+    details: [
+      'Me desempeño como referente tecnológico, desarrollador frontend y realizo algunas tareas de nexo con el cliente para la rama de software factory de la empresa.',
+      'Puntualmente trabajo en un equipo de desarrollo que esta dedicado a desarrollar una plataforma de negocios B2B para un importante banco de Argentina.',
+    ],
+  },
+  {
+    name: 'Actas Italianas Express',
+    period: 'ago/2022 - presente',
+    role: 'Desarrollador Front-end',
+    logoImgSrc: 'https://i.postimg.cc/G21DmtNd/next-png.png',
+    details: [
+      'Soy founder de Actas italianas express, un servicio de gestión rápida de actas italianas necesarias para la tramitación de la ciudanía italiana por parte de nuestros clientes.',
+      'Nuestro servicio busca y gestiona en origen la documentación, generando mayor tasa de respuesta por parte de las comunas y con una velocidad de respuesta superior.',
+      'Mi rol es principalmente el desarrollo y mantenimiento de la plataforma online, servicios back oficce para la administracion de leads y desarrollo de provedores de servicios ad-hoc en Italia.',
+    ],
+  },
+];
+
+interface IStack {
+  iconSrc: string;
+  doubleWidth?: boolean;
+}
+
+export const stack: IStack[] = [
+  {
+    iconSrc: 'https://i.postimg.cc/MZ11m06Y/react-Icon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/7LHby70S/javascript-Icon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/QCJtF7Mr/ts-icon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/kGPKdGc8/HtmlIcon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/3Rvm6mgY/cssIcon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/NFQ4z1X5/vercel-logo.png', // next
+    doubleWidth: true,
+  },
+
+  {
+    iconSrc: 'https://i.postimg.cc/3Rvm6mgY/cssIcon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/Kj7LcbqW/firebase-Icon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/TP6KXTGL/node.png',
+  },
+
+  {
+    iconSrc: 'https://i.postimg.cc/sxpps1pb/aws-icon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/YSsQS6mL/material-icon.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/3xZfQCDg/bootstrap.png',
+  },
+  {
+    iconSrc: 'https://i.postimg.cc/NFQ4z1X5/vercel-logo.png',
+    doubleWidth: true,
+  },
+];
