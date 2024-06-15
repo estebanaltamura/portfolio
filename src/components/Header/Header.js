@@ -51,7 +51,7 @@ export const Header = () => {
 
       <a
         className='iconosHeader iconoCVHeader'
-        href='https://drive.google.com/file/d/1mqtxLOzBAMEbttJd2hkwEYH9VLsGteSQ/view?usp=sharing'
+        href='https://drive.google.com/file/d/1X7VTxJ9HQAAyqZxnQPZNpxsI3RsJtpG7/view?usp=sharing'
         target='_blank without rel="noreferrer"'
         rel='noreferrer'
       >
